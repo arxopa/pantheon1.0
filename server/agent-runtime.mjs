@@ -193,6 +193,74 @@ function clearUltraSession(userId = 'web-user') {
   return existing;
 }
 
+function serializeUltraExpert(expert = {}) {
+  return {
+    personalityId: expert.personalityId ?? null,
+    displayName: expert.displayName ?? expert.personalityId ?? null,
+    templateId: expert.templateId ?? null,
+    sourcePersonalityId: expert.sourcePersonalityId ?? null,
+    weight: Number(expert.weight ?? 0),
+  };
+}
+
+function serializeUltraHistoryTurn(turn = {}) {
+  return {
+    user: clipUltraText(turn.user ?? '', 180),
+    assistant: clipUltraText(turn.assistant ?? '', 220),
+  };
+}
+
+function serializeUltraSession(session = {}) {
+  const history = Array.isArray(session.history) ? session.history : [];
+
+  return {
+    id: session.id ?? null,
+    userId: session.userId ?? null,
+    createdAt: session.createdAt ?? null,
+    lastUpdatedAt: session.lastUpdatedAt ?? null,
+    turnCount: Number(session.turnCount ?? 0),
+    lastQuery: clipUltraText(session.lastQuery ?? '', 180),
+    lastReplyPreview: clipUltraText(session.lastReplyPreview ?? '', 220),
+    lastValidationReason: session.lastValidationReason ?? null,
+    lastValidationAllowed: Boolean(session.lastValidationAllowed),
+    lastNormalPersonalityId: session.lastNormalPersonalityId ?? 'default',
+    lastSynthesisTimeMs: Number(session.lastSynthesisTimeMs ?? 0),
+    lastContradictionResolutionScore: Number(
+      session.lastContradictionResolutionScore ?? 0
+    ),
+    selectedExperts: (Array.isArray(session.experts)
+      ? session.experts
+      : []
+    ).map(serializeUltraExpert),
+    lastExpertsUsed: Array.isArray(session.lastExpertsUsed)
+      ? session.lastExpertsUsed.map(serializeUltraExpert)
+      : [],
+    recentHistory: history.slice(-3).map(serializeUltraHistoryTurn),
+  };
+}
+
+function listUltraSessions({ userId = null, limit = 20 } = {}) {
+  pruneUltraSessions();
+  const normalizedUserId =
+    typeof userId === 'string' && userId.trim().length > 0
+      ? getUltraSessionKey(userId)
+      : null;
+
+  return [...ultraSessions.values()]
+    .filter(
+      (session) =>
+        !normalizedUserId ||
+        getUltraSessionKey(session.userId) === normalizedUserId
+    )
+    .sort(
+      (left, right) =>
+        new Date(right.lastUpdatedAt ?? right.createdAt).getTime() -
+        new Date(left.lastUpdatedAt ?? left.createdAt).getTime()
+    )
+    .slice(0, Math.max(1, Number(limit ?? 20)))
+    .map(serializeUltraSession);
+}
+
 function parseUltraCommand(message = '') {
   const trimmed = String(message ?? '').trim();
 
@@ -603,6 +671,18 @@ async function runUltraTurn(payload, mode = 'continue') {
     experts,
     turnCount: Number(session.turnCount ?? 0) + 1,
     lastQuery: query,
+    lastReplyPreview: replyText,
+    lastValidationReason: validation.reason,
+    lastValidationAllowed: validation.allowed,
+    lastExpertsUsed: expertResponses.map((entry) => ({
+      personalityId: entry.personalityId,
+      displayName: entry.displayName,
+      templateId: entry.templateId ?? null,
+      sourcePersonalityId: entry.sourcePersonalityId ?? null,
+      weight: entry.weight,
+    })),
+    lastSynthesisTimeMs: synthesis.synthesisTimeMs,
+    lastContradictionResolutionScore: synthesis.contradictionResolutionScore,
     lastUpdatedAt: new Date().toISOString(),
     history: [
       ...(session.history ?? []).slice(-7),
@@ -887,15 +967,21 @@ async function runAtmanMonteCarloSelfLearning(payload = {}) {
     (left, right) => right.score - left.score
   )[0];
 
-  if (!selected?.bestFinding) {
+  if (!selected) {
     throw new Error(
       `Monte Carlo self-learning could not find usable evidence for topic ${topic}.`
     );
   }
 
-  const navigationUrls = selected.bestFinding.url
-    ? [selected.bestFinding.url]
-    : [];
+  const selectedFinding = selected.bestFinding ?? {
+    title: `Fallback evidence for ${topic}`,
+    snippet: `Внешнее подтверждение временно недоступно. Зафиксирована безопасная обучающая гипотеза по теме ${topic}: ${selected.query}.`,
+    confidence: Number(selected.confidenceScore ?? 0.2),
+    url: null,
+    sourceType: 'fallback',
+  };
+
+  const navigationUrls = selectedFinding.url ? [selectedFinding.url] : [];
   const navigationReport =
     personality.selfLearning?.internetSurfingEnabled !== false &&
     navigationUrls.length > 0
@@ -916,7 +1002,7 @@ async function runAtmanMonteCarloSelfLearning(payload = {}) {
           selected.researchReport
         )
       : null;
-  const learningSummary = `${selected.bestFinding.snippet || selected.bestFinding.title}. Источник: ${selected.bestFinding.title || selected.bestFinding.url}.${selected.bestFinding.url ? ` Ссылка: ${selected.bestFinding.url}.` : ''}`;
+  const learningSummary = `${selectedFinding.snippet || selectedFinding.title}. Источник: ${selectedFinding.title || selectedFinding.url}.${selectedFinding.url ? ` Ссылка: ${selectedFinding.url}.` : ''}`;
   const example = await activeAtman.trainFromDialogue({
     user: `Что нового ты узнал про ${topic}?`,
     assistant: learningSummary,
@@ -947,11 +1033,12 @@ async function runAtmanMonteCarloSelfLearning(payload = {}) {
     await atmanPersonalityManager.evolvePersonalityFromLearning(personalityId, {
       topic,
       selectedQuery: selected.query,
-      bestFinding: selected.bestFinding,
+      bestFinding: selectedFinding,
       noveltyScore: selected.noveltyScore,
       confidenceScore: selected.confidenceScore,
       mutationRollouts: rolloutCount,
       netsurferUsed: Boolean(netsurferReport),
+      usedFallbackEvidence: !selected.bestFinding,
     });
   const socialContagion = await atmanPersonalityManager.spreadInterestSignal(
     personalityId,
@@ -979,6 +1066,7 @@ async function runAtmanMonteCarloSelfLearning(payload = {}) {
     selectedQuery: selected.query,
     selectedScore: selected.score,
     netsurferUsed: Boolean(netsurferReport),
+    usedFallbackEvidence: !selected.bestFinding,
     mutationLabel: evolvedPersonality.lastMutation?.label ?? null,
     mutationScore: evolvedPersonality.lastMutation?.score ?? null,
     speakingStyle: evolvedPersonality.speakingStyle,
@@ -996,11 +1084,16 @@ async function runAtmanMonteCarloSelfLearning(payload = {}) {
       noveltyScore: entry.noveltyScore,
       confidenceScore: entry.confidenceScore,
       findingCount: entry.findingCount,
-      bestFinding: entry.bestFinding,
+      bestFinding:
+        entry === selected && !entry.bestFinding
+          ? selectedFinding
+          : entry.bestFinding,
     })),
     example,
     navigationReport,
     netsurferReport,
+    bestFinding: selectedFinding,
+    usedFallbackEvidence: !selected.bestFinding,
     personality: evolvedPersonality,
     socialContagion,
   };
@@ -3582,6 +3675,25 @@ const server = http.createServer(async (req, res) => {
   if (req.method === 'GET' && req.url === '/api/atman/personality-templates') {
     sendJson(res, 200, {
       templates: atmanPersonalityManager.listPersonalityTemplates(),
+    });
+    return;
+  }
+
+  if (
+    req.method === 'GET' &&
+    req.url?.startsWith('/api/atman/ultra-sessions')
+  ) {
+    const requestUrl = new URL(req.url, `http://localhost:${port}`);
+    const sessions = listUltraSessions({
+      userId: requestUrl.searchParams.get('userId') ?? null,
+      limit: Number(requestUrl.searchParams.get('limit') ?? 20),
+    });
+    sendJson(res, 200, {
+      sessions,
+      total: sessions.length,
+      activeSessionCount: ultraSessions.size,
+      sessionIdleMs: ultraSessionIdleMs,
+      expertTimeoutMs: ultraExpertTimeoutMs,
     });
     return;
   }

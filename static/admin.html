@@ -449,6 +449,25 @@
           <pre id="atmanPersistedEventsOutput">Ожидание persisted event stream...</pre>
           <div class="inline-fields" style="margin-top: 12px">
             <input
+              id="atmanUltraPrompt"
+              placeholder="Ultra prompt or follow-up turn"
+              value="Спроектируй экологичный жилой комплекс на 100 квартир с пассивным отоплением и детскими зонами"
+            />
+            <button onclick="loadAtmanUltraSessions()">Load Ultra sessions</button>
+          </div>
+          <div class="actions three" style="margin-top: 12px">
+            <button onclick="startAtmanUltraMode()">Start !ultra</button>
+            <button class="secondary" onclick="sendAtmanUltraTurn()">
+              Send turn
+            </button>
+            <button class="danger" onclick="stopAtmanUltraMode()">
+              Stop !normal
+            </button>
+          </div>
+          <pre id="atmanUltraSessionsOutput">Ожидание Ultra session metadata...</pre>
+          <pre id="atmanUltraResponseOutput">Ожидание Ultra smoke flow...</pre>
+          <div class="inline-fields" style="margin-top: 12px">
+            <input
               id="atmanSelfLearnTopic"
               placeholder="topic for Monte Carlo self-learning"
             />
@@ -1564,6 +1583,10 @@ Beta test checklist:
         return document.getElementById('atmanPersonalityId').value || 'default';
       }
 
+      function getAtmanUltraUserId() {
+        return document.getElementById('atmanUserId').value || 'web-user';
+      }
+
       function withAtmanPersonality(path) {
         const separator = path.includes('?') ? '&' : '?';
         return `${path}${separator}personalityId=${encodeURIComponent(getAtmanPersonalityId())}`;
@@ -1607,6 +1630,54 @@ Beta test checklist:
         );
         document.getElementById('atmanPersistedEventsOutput').textContent =
           JSON.stringify(payload, null, 2);
+      }
+
+      async function loadAtmanUltraSessions() {
+        const userId = getAtmanUltraUserId().trim();
+        const query = new URLSearchParams({ limit: '12' });
+
+        if (userId) {
+          query.set('userId', userId);
+        }
+
+        const payload = await request(
+          `/api/atman/ultra-sessions?${query.toString()}`
+        );
+        document.getElementById('atmanUltraSessionsOutput').textContent =
+          JSON.stringify(payload, null, 2);
+      }
+
+      async function sendAtmanUltraMessage(message) {
+        const payload = await request('/api/atman/chat', 'POST', {
+          message,
+          userId: getAtmanUltraUserId(),
+          personalityId: getAtmanPersonalityId(),
+        });
+        document.getElementById('atmanUltraResponseOutput').textContent =
+          JSON.stringify(payload, null, 2);
+        setAdminLog(payload);
+        await loadAtmanUltraSessions();
+        await loadAtmanEvents();
+        await loadPersistedAtmanEvents();
+      }
+
+      async function startAtmanUltraMode() {
+        const prompt = document.getElementById('atmanUltraPrompt').value.trim();
+        if (!prompt) return;
+        const message = /^!ultra\b/i.test(prompt)
+          ? prompt
+          : `!ultra ${prompt}`;
+        await sendAtmanUltraMessage(message);
+      }
+
+      async function sendAtmanUltraTurn() {
+        const prompt = document.getElementById('atmanUltraPrompt').value.trim();
+        if (!prompt) return;
+        await sendAtmanUltraMessage(prompt);
+      }
+
+      async function stopAtmanUltraMode() {
+        await sendAtmanUltraMessage('!normal');
       }
 
       async function setAtmanEthicsValue() {
@@ -2043,6 +2114,7 @@ Beta test checklist:
           loadAtmanEthicsHistory(),
           loadAtmanEvents(),
           loadPersistedAtmanEvents(),
+          loadAtmanUltraSessions(),
           loadAtmanWeights(),
           loadAtmanExamples(),
           loadAtmanHistory(),

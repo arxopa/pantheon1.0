@@ -86,6 +86,43 @@ async function main() {
       }
     );
 
+    await withMeasuredCase(report, 'admin-ui', 'ultra-smoke-flow', async () => {
+      await page.fill(
+        '#atmanUltraPrompt',
+        'Спроектируй экологичный жилой комплекс на 100 квартир с пассивным отоплением и семейными зонами'
+      );
+      await page.click('button:has-text("Start !ultra")');
+      await waitForPreText(page, '#atmanUltraResponseOutput', '"active": true');
+      await waitForPreText(
+        page,
+        '#atmanUltraSessionsOutput',
+        'selectedExperts'
+      );
+
+      await page.fill(
+        '#atmanUltraPrompt',
+        'Добавь вывод по бюджету, рискам и этапам запуска проекта'
+      );
+      await page.click('button:has-text("Send turn")');
+      await waitForPreText(
+        page,
+        '#atmanUltraResponseOutput',
+        'contradictionResolutionScore'
+      );
+
+      await page.click('button:has-text("Stop !normal")');
+      await waitForPreText(
+        page,
+        '#atmanUltraResponseOutput',
+        '"active": false'
+      );
+
+      return {
+        response: await page.textContent('#atmanUltraResponseOutput'),
+        sessions: await page.textContent('#atmanUltraSessionsOutput'),
+      };
+    });
+
     await withMeasuredCase(
       report,
       'admin-ui',
