@@ -1,0 +1,393 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern\fcharset0 Courier New;}}{\colortbl;\red0\green0\blue0;}\f0\fs20 \b Pantheon1.0 \u8212? Full Project Source Code\b0\par\par Pantheon1.0 \u8212? Full Project Source Code\par
+==================================================\par
+Generated: 2026-05-02 07:58:51 UTC\par
+\par
+============================================================\par
+FILE: generate_reports.py\par
+============================================================\par
+"""\par
+generate_reports.py \u8212? Generate fordeepseek.rtf and pantheon.rtf.\par
+\par
+* fordeepseek.rtf  \u8211? Results of running the Pantheon1.0 neural network demo.\par
+* pantheon.rtf     \u8211? Full source code of the project.\par
+\par
+Run this script any time you want to refresh the RTF files:\par
+    python generate_reports.py\par
+"""\par
+\par
+import os\par
+import datetime\par
+import sys\par
+\par
+# Ensure the repo root is on the path so we can import pantheon.py\par
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))\par
+if REPO_ROOT not in sys.path:\par
+    sys.path.insert(0, REPO_ROOT)\par
+\par
+from pantheon import run_demo  # noqa: E402\par
+\par
+\par
+# ---------------------------------------------------------------------------\par
+# RTF helpers\par
+# ---------------------------------------------------------------------------\par
+\par
+def _rtf_escape(text):\par
+    """Escape special RTF characters and encode non-ASCII as Unicode escapes."""\par
+    out = []\par
+    for ch in text:\par
+        if ch == "\\\\":\par
+            out.append("\\\\\\\\")\par
+        elif ch == "\{":\par
+            out.append("\\\\\{")\par
+        elif ch == "\}":\par
+            out.append("\\\\\}")\par
+        elif ch == "\\n":\par
+            out.append("\\\\par\\n")\par
+        elif ch == "\\t":\par
+            out.append("\\\\tab ")\par
+        elif ord(ch) > 127:\par
+            out.append(f"\\\\u\{ord(ch)\}?")\par
+        else:\par
+            out.append(ch)\par
+    return "".join(out)\par
+\par
+\par
+def _wrap_rtf(body_text, title=""):\par
+    """Wrap plain text in a minimal RTF envelope."""\par
+    header = (\par
+        r"\{\\rtf1\\ansi\\deff0"\par
+        r"\{\\fonttbl\{\\f0\\fmodern\\fcharset0 Courier New;\}\}"\par
+        r"\{\\colortbl;\\red0\\green0\\blue0;\}"\par
+        r"\\f0\\fs20 "\par
+    )\par
+    if title:\par
+        header += r"\\b " + _rtf_escape(title) + r"\\b0\\par\\par "\par
+    footer = "\}"\par
+    return header + _rtf_escape(body_text) + footer\par
+\par
+\par
+def write_rtf(path, body_text, title=""):\par
+    """Write an RTF file at *path* with the given body text."""\par
+    content = _wrap_rtf(body_text, title=title)\par
+    with open(path, "w", encoding="utf-8") as fh:\par
+        fh.write(content)\par
+    print(f"  Written: \{path\}")\par
+\par
+\par
+# ---------------------------------------------------------------------------\par
+# Content builders\par
+# ---------------------------------------------------------------------------\par
+\par
+def build_fordeepseek_content():\par
+    """Run the Pantheon demo and return a plain-text summary."""\par
+    print("Running Pantheon1.0 demo \u8230?")\par
+    results, history, final_loss = run_demo()\par
+\par
+    lines = [\par
+        "Pantheon1.0 \u8212? Results of Work",\par
+        "=" * 50,\par
+        f"Generated: \{datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')\}",\par
+        "",\par
+        "Project: pantheon1.0",\par
+        "Description: Multilevel Clustered Neuronet AI",\par
+        "",\par
+        "Demo task: XOR classification",\par
+        "-" * 40,\par
+    ]\par
+    for inputs, expected, predicted in results:\par
+        status = "OK" if abs(predicted - expected) < 0.3 else "FAIL"\par
+        lines.append(\par
+            f"  Input: \{inputs\}  Expected: \{expected\}  Predicted: \{predicted:.4f\}  [\{status\}]"\par
+        )\par
+    lines += [\par
+        "",\par
+        f"Final training loss: \{final_loss:.8f\}",\par
+        f"Training epochs completed: \{len(history)\}",\par
+        "",\par
+        "Architecture: Multilevel Clustered Neuronet",\par
+        "  - Level 1: 2 clusters, each [2 \u8594? 3 \u8594? 1]",\par
+        "  - Activation: Sigmoid",\par
+        "  - Learning: Backpropagation with gradient descent",\par
+        "",\par
+        "Status: COMPLETE",\par
+    ]\par
+    return "\\n".join(lines)\par
+\par
+\par
+def build_pantheon_content():\par
+    """Return the full source code of every Python file in the project."""\par
+    source_files = []\par
+    for fname in sorted(os.listdir(REPO_ROOT)):\par
+        if fname.endswith(".py"):\par
+            source_files.append(fname)\par
+\par
+    lines = [\par
+        "Pantheon1.0 \u8212? Full Project Source Code",\par
+        "=" * 50,\par
+        f"Generated: \{datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')\}",\par
+        "",\par
+    ]\par
+    for fname in source_files:\par
+        fpath = os.path.join(REPO_ROOT, fname)\par
+        lines.append(f"\{'=' * 60\}")\par
+        lines.append(f"FILE: \{fname\}")\par
+        lines.append(f"\{'=' * 60\}")\par
+        with open(fpath, "r", encoding="utf-8") as fh:\par
+            lines.append(fh.read())\par
+        lines.append("")\par
+\par
+    # Also include README\par
+    readme_path = os.path.join(REPO_ROOT, "README.md")\par
+    if os.path.exists(readme_path):\par
+        lines.append(f"\{'=' * 60\}")\par
+        lines.append("FILE: README.md")\par
+        lines.append(f"\{'=' * 60\}")\par
+        with open(readme_path, "r", encoding="utf-8") as fh:\par
+            lines.append(fh.read())\par
+\par
+    return "\\n".join(lines)\par
+\par
+\par
+# ---------------------------------------------------------------------------\par
+# Main\par
+# ---------------------------------------------------------------------------\par
+\par
+def main():\par
+    print("=== Pantheon1.0 Report Generator ===\\n")\par
+\par
+    fordeepseek_path = os.path.join(REPO_ROOT, "fordeepseek.rtf")\par
+    pantheon_rtf_path = os.path.join(REPO_ROOT, "pantheon.rtf")\par
+\par
+    print("Building fordeepseek.rtf \u8230?")\par
+    fordeepseek_text = build_fordeepseek_content()\par
+    write_rtf(fordeepseek_path, fordeepseek_text, title="Pantheon1.0 \u8212? Results of Work")\par
+\par
+    print("\\nBuilding pantheon.rtf \u8230?")\par
+    pantheon_text = build_pantheon_content()\par
+    write_rtf(pantheon_rtf_path, pantheon_text, title="Pantheon1.0 \u8212? Full Project Source Code")\par
+\par
+    print("\\nDone.  Both RTF files have been created/updated.")\par
+\par
+\par
+if __name__ == "__main__":\par
+    main()\par
+\par
+\par
+============================================================\par
+FILE: pantheon.py\par
+============================================================\par
+"""\par
+pantheon1.0 - Multilevel Clustered Neuronet AI\par
+"""\par
+\par
+import math\par
+import random\par
+\par
+\par
+def sigmoid(x):\par
+    return 1.0 / (1.0 + math.exp(-x))\par
+\par
+\par
+def sigmoid_derivative(x):\par
+    s = sigmoid(x)\par
+    return s * (1.0 - s)\par
+\par
+\par
+class Neuron:\par
+    """A single neuron in the network."""\par
+\par
+    def __init__(self, num_inputs):\par
+        self.weights = [random.uniform(-1.0, 1.0) for _ in range(num_inputs)]\par
+        self.bias = random.uniform(-1.0, 1.0)\par
+        self.output = 0.0\par
+        self.delta = 0.0\par
+\par
+    def activate(self, inputs):\par
+        total = self.bias + sum(w * x for w, x in zip(self.weights, inputs))\par
+        self.output = sigmoid(total)\par
+        return self.output\par
+\par
+\par
+class Layer:\par
+    """A layer of neurons in the network."""\par
+\par
+    def __init__(self, num_neurons, num_inputs_per_neuron):\par
+        self.neurons = [Neuron(num_inputs_per_neuron) for _ in range(num_neurons)]\par
+\par
+    def forward(self, inputs):\par
+        return [neuron.activate(inputs) for neuron in self.neurons]\par
+\par
+\par
+class Cluster:\par
+    """A cluster is a self-contained multilayer sub-network."""\par
+\par
+    def __init__(self, layer_sizes):\par
+        self.layers = []\par
+        for i in range(1, len(layer_sizes)):\par
+            self.layers.append(Layer(layer_sizes[i], layer_sizes[i - 1]))\par
+\par
+    def forward(self, inputs):\par
+        current = inputs\par
+        for layer in self.layers:\par
+            current = layer.forward(current)\par
+        return current\par
+\par
+    def train_step(self, inputs, targets, learning_rate=0.1):\par
+        # Forward pass\par
+        activations = [inputs]\par
+        for layer in self.layers:\par
+            activations.append(layer.forward(activations[-1]))\par
+\par
+        # Backward pass \u8212? output layer deltas\par
+        output_layer = self.layers[-1]\par
+        for i, neuron in enumerate(output_layer.neurons):\par
+            error = targets[i] - activations[-1][i]\par
+            neuron.delta = error * sigmoid_derivative(\par
+                sum(w * x for w, x in zip(neuron.weights, activations[-2])) + neuron.bias\par
+            )\par
+\par
+        # Hidden layer deltas\par
+        for l in range(len(self.layers) - 2, -1, -1):\par
+            for i, neuron in enumerate(self.layers[l].neurons):\par
+                error = sum(\par
+                    self.layers[l + 1].neurons[j].weights[i] * self.layers[l + 1].neurons[j].delta\par
+                    for j in range(len(self.layers[l + 1].neurons))\par
+                )\par
+                raw = (\par
+                    sum(w * x for w, x in zip(neuron.weights, activations[l])) + neuron.bias\par
+                )\par
+                neuron.delta = error * sigmoid_derivative(raw)\par
+\par
+        # Weight updates\par
+        for l, layer in enumerate(self.layers):\par
+            for neuron in layer.neurons:\par
+                for k in range(len(neuron.weights)):\par
+                    neuron.weights[k] += learning_rate * neuron.delta * activations[l][k]\par
+                neuron.bias += learning_rate * neuron.delta\par
+\par
+        # Return mean squared error\par
+        predictions = activations[-1]\par
+        return sum((t - p) ** 2 for t, p in zip(targets, predictions)) / len(targets)\par
+\par
+\par
+class Pantheon:\par
+    """\par
+    Multilevel Clustered Neuronet AI.\par
+\par
+    Multiple clusters are arranged in a hierarchy:\par
+      - Input is broadcast to all clusters in a level.\par
+      - Each cluster processes its own sub-network.\par
+      - Outputs from all clusters are concatenated and fed to the next level.\par
+    """\par
+\par
+    def __init__(self, input_size, cluster_configs):\par
+        """\par
+        Args:\par
+            input_size: Number of features in the input.\par
+            cluster_configs: List of lists of layer-size tuples per level.\par
+                Example: [[(4, [4, 3, 2]), (4, [4, 3, 2])], [(4, [4, 2, 1])]]\par
+                Each element is (num_inputs_for_cluster, [hidden..., output]).\par
+        """\par
+        self.clusters = []\par
+        current_input = input_size\par
+        for level_config in cluster_configs:\par
+            level_clusters = []\par
+            level_output = 0\par
+            for cluster_input, layer_sizes in level_config:\par
+                sizes = [cluster_input] + layer_sizes\par
+                level_clusters.append(Cluster(sizes))\par
+                level_output += layer_sizes[-1]\par
+            self.clusters.append(level_clusters)\par
+            current_input = level_output\par
+        self.input_size = input_size\par
+\par
+    def predict(self, inputs):\par
+        current = inputs\par
+        for level_clusters in self.clusters:\par
+            level_output = []\par
+            for cluster in level_clusters:\par
+                level_output.extend(cluster.forward(current))\par
+            current = level_output\par
+        return current\par
+\par
+    def train(self, dataset, epochs=1000, learning_rate=0.1):\par
+        """Train all clusters end-to-end (simplified: each cluster trains on its own slice)."""\par
+        history = []\par
+        for epoch in range(epochs):\par
+            total_loss = 0.0\par
+            for inputs, targets in dataset:\par
+                # Propagate forward through every level to collect per-level inputs\par
+                level_inputs = [inputs]\par
+                current = inputs\par
+                for level_clusters in self.clusters:\par
+                    level_output = []\par
+                    for cluster in level_clusters:\par
+                        level_output.extend(cluster.forward(current))\par
+                    current = level_output\par
+                    level_inputs.append(current)\par
+\par
+                # Train each cluster in the last level on its output slice\par
+                n_clusters = len(self.clusters[-1])\par
+                chunk = len(targets) // n_clusters or 1\par
+                for idx, cluster in enumerate(self.clusters[-1]):\par
+                    c_inputs = level_inputs[-2]\par
+                    c_targets = targets[idx * chunk: (idx + 1) * chunk]\par
+                    if not c_targets:\par
+                        c_targets = targets\par
+                    loss = cluster.train_step(c_inputs, c_targets, learning_rate)\par
+                    total_loss += loss\par
+            avg_loss = total_loss / len(dataset)\par
+            history.append(avg_loss)\par
+            if (epoch + 1) % 100 == 0:\par
+                print(f"Epoch \{epoch + 1\}/\{epochs\}  loss=\{avg_loss:.6f\}")\par
+        return history\par
+\par
+\par
+# ---------------------------------------------------------------------------\par
+# Demo \u8212? XOR problem solved with a two-cluster single-level Pantheon\par
+# ---------------------------------------------------------------------------\par
+def run_demo():\par
+    random.seed(42)\par
+\par
+    xor_data = [\par
+        ([0, 0], [0]),\par
+        ([0, 1], [1]),\par
+        ([1, 0], [1]),\par
+        ([1, 1], [0]),\par
+    ]\par
+\par
+    # Two clusters, each taking 2 inputs, 1 hidden layer of 3 neurons, 1 output\par
+    cluster_configs = [\par
+        [(2, [3, 1]), (2, [3, 1])],  # level 1: 2 clusters \u8594? 2 outputs\par
+    ]\par
+\par
+    net = Pantheon(input_size=2, cluster_configs=cluster_configs)\par
+\par
+    print("=== Pantheon1.0 Demo \u8212? XOR Problem ===")\par
+    print("Training \u8230?")\par
+    history = net.train(xor_data, epochs=500, learning_rate=0.5)\par
+\par
+    print("\\nResults:")\par
+    results = []\par
+    for inputs, targets in xor_data:\par
+        pred = net.predict(inputs)\par
+        # Average the two cluster outputs for the final answer\par
+        answer = sum(pred) / len(pred)\par
+        results.append((inputs, targets[0], round(answer, 4)))\par
+        print(f"  Input: \{inputs\}  Expected: \{targets[0]\}  Predicted: \{answer:.4f\}")\par
+\par
+    final_loss = history[-1]\par
+    print(f"\\nFinal training loss: \{final_loss:.6f\}")\par
+    return results, history, final_loss\par
+\par
+\par
+if __name__ == "__main__":\par
+    run_demo()\par
+\par
+\par
+============================================================\par
+FILE: README.md\par
+============================================================\par
+# pantheon1.0\par
+multilevel clustered neuronet AI\par
+}
