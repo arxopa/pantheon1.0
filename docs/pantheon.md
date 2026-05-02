@@ -66,6 +66,7 @@ Important files now include:
 
 - `release-notes-pantheon-1.0.md`
 - `release-announcement-pantheon-1.0.md`
+- `gitpath.md`
 - `fordeepseek.md`
 - `lastchanges.md`
 - `deepseek-pantheon-report-2026-05-02.md`

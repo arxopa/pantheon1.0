@@ -2,23 +2,22 @@
 
 ## Latest Repository-Level Actions
 
-### 1. DeepSeek report rollover automation added
+### 1. Branch-protection-compatible docs sync finalized
 
-- added `server/reporting/roll-deepseek-reports.mjs` as the repo-native CLI for archiving the previous `docs/lastchanges.md` snapshot into `docs/fordeepseek.md`;
-- added npm command `npm run report:deepseek -- --source <snapshot.md> --title <entry title>` for the rollover flow.
+- changed `Docs Sync` so it now runs on pull requests and writes normalized `docs/` updates back to the PR source branch instead of pushing directly to `main`;
+- this makes automatic GitHub-side docs normalization compatible with strict protected-branch rules.
 
-### 2. Docs auto-sync automation added for GitHub
+### 2. Strict DeepSeek-governed merge policy prepared for enforcement
 
-- added `npm run docs:sync` to normalize all markdown files under `docs/`;
-- added GitHub workflow `Docs Sync` to run on `main` and commit refreshed `docs/` content back to the repository when markdown normalization changes the docs tree.
+- updated the DeepSeek approval policy so non-doc changes must go through a pull request branch, pass required checks, and carry DeepSeek approval before merge;
+- this is the documented merge path for project changes once direct bypass of branch protection is disabled.
 
-### 3. DeepSeek approval gate added for non-doc changes
+### 3. Repository path document added for DeepSeek
 
-- added GitHub workflow `DeepSeek Approval Gate` for pull requests;
-- non-doc changes now require the `deepseek-approved` label before the gate passes;
-- docs-only changes remain allowed without that approval label.
+- added `docs/gitpath.md` with the full local repository path, Git remote URL, and public GitHub repository URL;
+- updated `docs/pantheon.md` so the report set explicitly includes `gitpath.md`.
 
-### 4. Release announcement and governance docs added
+### 4. Docs-wide formatting contract completed
 
-- added `docs/release-announcement-pantheon-1.0.md` with short, standard, and Telegram-ready announcement text;
-- added `docs/deepseek-approval-policy.md` describing the merge policy and docs update workflow.
+- expanded `format` and `format:check` to cover `.github/workflows/*.yml` and `docs/**/*.md` instead of a partial hand-picked file list;
+- normalized existing markdown files in `docs/` that were previously outside the standard formatting gate, so the whole docs tree now participates in automated GitHub updates cleanly.

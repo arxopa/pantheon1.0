@@ -173,3 +173,55 @@ Archived automatically from `docs/lastchanges.md` on 2026-05-02.
 - published release: `v1.0.0`;
 - release page: `https://github.com/arxopa/pantheon1.0/releases/tag/v1.0.0`;
 - the release body was generated from the Pantheon 1.0 release notes and finalized as a public repository milestone.
+
+## History Entry 7: Strict branch protection and repository path record
+
+### Source
+
+Archived automatically from `docs/lastchanges.md` on 2026-05-02.
+
+### Latest Repository-Level Actions
+
+#### 1. DeepSeek report rollover automation added
+
+- added `server/reporting/roll-deepseek-reports.mjs` as the repo-native CLI for archiving the previous `docs/lastchanges.md` snapshot into `docs/fordeepseek.md`;
+- added npm command `npm run report:deepseek -- --source <snapshot.md> --title <entry title>` for the rollover flow.
+
+#### 2. Docs auto-sync automation added for GitHub
+
+- added `npm run docs:sync` to normalize all markdown files under `docs/`;
+- added GitHub workflow `Docs Sync` to run on `main` and commit refreshed `docs/` content back to the repository when markdown normalization changes the docs tree.
+
+#### 3. DeepSeek approval gate added for non-doc changes
+
+- added GitHub workflow `DeepSeek Approval Gate` for pull requests;
+- non-doc changes now require the `deepseek-approved` label before the gate passes;
+- docs-only changes remain allowed without that approval label.
+
+#### 4. Release announcement and governance docs added
+
+- added `docs/release-announcement-pantheon-1.0.md` with short, standard, and Telegram-ready announcement text;
+- added `docs/deepseek-approval-policy.md` describing the merge policy and docs update workflow.
+
+## History Entry 8: Strict branch protection enforcement preparation
+
+### Source
+
+Archived automatically from `docs/lastchanges.md` on 2026-05-02.
+
+### Latest Repository-Level Actions
+
+#### 1. Branch-protection-compatible docs sync finalized
+
+- changed `Docs Sync` so it now runs on pull requests and writes normalized `docs/` updates back to the PR source branch instead of pushing directly to `main`;
+- this removes the conflict between automatic docs normalization and strict protected-branch rules.
+
+#### 2. Strict DeepSeek-governed merge policy documented
+
+- updated the DeepSeek approval policy to require project changes outside `docs/` to go through a pull request branch, pass required checks, and carry DeepSeek approval before merge;
+- this documents the intended merge flow once strict branch protection is enforced on GitHub.
+
+#### 3. Repository path document added for DeepSeek
+
+- added `docs/gitpath.md` with the full local repository path, Git remote URL, and public GitHub repository URL;
+- updated `docs/pantheon.md` so the report set now includes `gitpath.md`.

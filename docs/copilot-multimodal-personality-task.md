@@ -195,13 +195,13 @@ Minimum checks:
 1. `npm run build`
 2. isolated runtime startup on a free port such as `8807`
 3. live probes for:
-	- `/api/atman/social-map`
-	- `/api/atman/social-simulate`
-	- `/api/atman/media/status`
-	- `/api/atman/media/tts`
-	- `/api/atman/media/stt`
-	- `/api/atman/media/image/generate`
-	- `/api/atman/media/video/generate`
+   - `/api/atman/social-map`
+   - `/api/atman/social-simulate`
+   - `/api/atman/media/status`
+   - `/api/atman/media/tts`
+   - `/api/atman/media/stt`
+   - `/api/atman/media/image/generate`
+   - `/api/atman/media/video/generate`
 4. confirm that at least one self-learning run changes personality-related output and returns social contagion metadata
 
 ## Constraints
