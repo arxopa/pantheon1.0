@@ -1,6 +1,9 @@
 name: DeepSeek Approval Gate
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     types:
       - opened
@@ -14,12 +17,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: No-op on main pushes
+        if: github.event_name != 'pull_request'
+        run: echo "DeepSeek approval enforcement is evaluated on pull requests."
+
       - name: Checkout
+        if: github.event_name == 'pull_request'
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Detect changed files
+        if: github.event_name == 'pull_request'
         id: changed-files
         env:
           BASE_REF: ${{ github.event.pull_request.base.sha }}
@@ -35,7 +44,7 @@ jobs:
           fi
 
       - name: Require DeepSeek approval label
-        if: steps.changed-files.outputs.requires_approval == 'true'
+        if: github.event_name == 'pull_request' && steps.changed-files.outputs.requires_approval == 'true'
         env:
           LABELS_JSON: ${{ toJson(github.event.pull_request.labels.*.name) }}
         run: |
