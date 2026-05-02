@@ -4,3 +4,8 @@ dist/
 *.log
 *.tsbuildinfo
 server/dialog/data/netsurfer-profiles/
+server/dialog/personalities/ab-*/
+server/dialog/personalities/admin-*/
+server/dialog/personalities/beta-*/
+server/dialog/personalities/scenario-*/
+server/dialog/personalities/child-mc-*/
