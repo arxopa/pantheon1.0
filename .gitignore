@@ -3,6 +3,13 @@ dist/
 .DS_Store
 *.log
 *.tsbuildinfo
+server/testing/data/beta-reports/
+server/dialog/data/multimodal-cache/
+server/dialog/data/atman-log.json
+server/dialog/data/atman-personalities.json
+server/interests/data/child-interests-log.json
+server/interests/data/child-interests-state.json
+server/self_learning/data/learning-ledger.json
 server/dialog/data/netsurfer-profiles/
 server/dialog/personalities/ab-*/
 server/dialog/personalities/admin-*/
