@@ -2,18 +2,23 @@
 
 ## Latest Repository-Level Actions
 
-### 1. Public repository metadata updated
+### 1. DeepSeek report rollover automation added
 
-- repository description changed to: `Clustered AI runtime with operator control plane, Atman personalities, Ultra expert routing, and guarded self-learning.`;
-- repository metadata form now carries topics for `nodejs`, `typescript`, `multi-agent`, `self-learning`, `agent-platform`, `ai-runtime`, and `operator-control-plane`.
+- added `server/reporting/roll-deepseek-reports.mjs` as the repo-native CLI for archiving the previous `docs/lastchanges.md` snapshot into `docs/fordeepseek.md`;
+- added npm command `npm run report:deepseek -- --source <snapshot.md> --title <entry title>` for the rollover flow.
 
-### 2. Branch protection enabled for `main`
+### 2. Docs auto-sync automation added for GitHub
 
-- a classic branch protection rule was created for `main`;
-- the protection entry is now present in GitHub settings and applies to exactly one branch.
+- added `npm run docs:sync` to normalize all markdown files under `docs/`;
+- added GitHub workflow `Docs Sync` to run on `main` and commit refreshed `docs/` content back to the repository when markdown normalization changes the docs tree.
 
-### 3. Public GitHub release published
+### 3. DeepSeek approval gate added for non-doc changes
 
-- published release: `v1.0.0`;
-- release page: `https://github.com/arxopa/pantheon1.0/releases/tag/v1.0.0`;
-- the release body was generated from the Pantheon 1.0 release notes and finalized as a public repository milestone.
+- added GitHub workflow `DeepSeek Approval Gate` for pull requests;
+- non-doc changes now require the `deepseek-approved` label before the gate passes;
+- docs-only changes remain allowed without that approval label.
+
+### 4. Release announcement and governance docs added
+
+- added `docs/release-announcement-pantheon-1.0.md` with short, standard, and Telegram-ready announcement text;
+- added `docs/deepseek-approval-policy.md` describing the merge policy and docs update workflow.

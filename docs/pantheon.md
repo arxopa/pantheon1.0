@@ -51,6 +51,7 @@ Node.js ESM runtime and backend subsystem root.
 - `interests/`: child-interest tracking and related state.
 - `linguistic/`: intent, tone, and linguistic routing helpers.
 - `navigation/`: browser and navigation behavior.
+- `reporting/`: report rollover and documentation-maintenance automation.
 - `research/`: web-scout and evidence-gathering helpers.
 - `self_learning/`: ledger, Rishi analysis, resonance monitoring, preflight, and self-learning flows.
 - `testing/`: beta, admin, scenario, load, chaos, and soak testing harnesses.
@@ -64,10 +65,19 @@ Project operating notes, release notes, scenario docs, and transfer reports.
 Important files now include:
 
 - `release-notes-pantheon-1.0.md`
+- `release-announcement-pantheon-1.0.md`
 - `fordeepseek.md`
 - `lastchanges.md`
 - `deepseek-pantheon-report-2026-05-02.md`
 - beta, ethics, template, multimodal, and training documentation.
+
+### `.github/workflows/`
+
+Repository automation and governance rules.
+
+- `ci.yml`: format, typecheck, and production build validation.
+- `docs-sync.yml`: automatic normalization and push-back of markdown updates under `docs/` when the repository workflow is triggered from GitHub.
+- `deepseek-approval.yml`: pull-request gate that blocks non-doc changes unless the PR carries a `deepseek-approved` label.
 
 ### `data/`
 
@@ -190,5 +200,11 @@ The current report package for DeepSeek is:
 - `docs/fordeepseek.md`: cumulative work history;
 - `docs/pantheon.md`: project-structure dossier;
 - `docs/lastchanges.md`: latest repository-level changes only.
+
+The maintenance workflow is now:
+
+- prepare the next latest-change snapshot as markdown;
+- run `npm run report:deepseek -- --source <snapshot.md> --title <entry title>`;
+- let the GitHub docs workflow normalize markdown updates inside `docs/`.
 
 Old RTF transfer files have been retired in favor of markdown to make the reports diffable, repo-native, and easier to update over time.

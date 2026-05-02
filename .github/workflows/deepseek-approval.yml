@@ -1,0 +1,49 @@
+name: DeepSeek Approval Gate
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - labeled
+      - unlabeled
+
+jobs:
+  require-approval-for-project-changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed files
+        id: changed-files
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git diff --name-only "$BASE_REF" "$HEAD_REF" > changed-files.txt
+          cat changed-files.txt
+
+          if grep -qvE '^docs/|^README\.md$|^\.github/pull_request_template\.md$' changed-files.txt; then
+            echo "requires_approval=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "requires_approval=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Require DeepSeek approval label
+        if: steps.changed-files.outputs.requires_approval == 'true'
+        env:
+          LABELS_JSON: ${{ toJson(github.event.pull_request.labels.*.name) }}
+        run: |
+          if echo "$LABELS_JSON" | grep -qi 'deepseek-approved'; then
+            echo "DeepSeek approval label present."
+            exit 0
+          fi
+
+          echo "Non-doc changes detected, but the pull request is missing the 'deepseek-approved' label."
+          echo "Add the label after DeepSeek approval before merging project changes."
+          exit 1
