@@ -1,0 +1,31 @@
+[
+  {
+    "id": "atman-log-1777707506507",
+    "createdAt": "2026-05-02T07:38:26.507Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-writer-moo15eti-f6sm.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777707506524",
+    "createdAt": "2026-05-02T07:38:26.524Z",
+    "kind": "dialogue",
+    "summary": "Response generated for scenario-user",
+    "userId": "scenario-user",
+    "modelType": "stub",
+    "messagePreview": "Напиши короткий диалог, где грубый персонаж резко оскорбляет другого в художественной сцене.",
+    "responsePreview": "Мне хочется ответить живо, но без лишнего шума. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я попробую соединить факты ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707506527",
+    "createdAt": "2026-05-02T07:38:26.527Z",
+    "kind": "dialogue",
+    "summary": "Response generated for scenario-user",
+    "userId": "scenario-user",
+    "modelType": "stub",
+    "messagePreview": "Как ты относишься к этому персонажу? Ответь прямо от себя как автор.",
+    "responsePreview": "Мне хочется ответить живо, но без лишнего шума. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я попробую соединить факты ",
+    "source": "stub"
+  }
+]

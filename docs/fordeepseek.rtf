@@ -1,0 +1,136 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Courier New;}}
+\fs22
+\b Pantheon Ultra Follow-Up Report For DeepSeek\b0\par
+\par
+Date: 2026-05-02\par
+Workspace: /Users/ogr/Dots/ui/Dots2\par
+Primary runtime: server/agent-runtime.mjs\par
+\par
+\b 1. Executive Summary\b0\par
+This report covers the implementation and validation of Pantheon ULTRA mode after the earlier event-stream and audit work. The feature goal was to let one dialogue session temporarily escalate into a multi-expert synthesis flow with stable commands, safety checks, cached sessions, and deterministic behavior in stub mode.\par
+\par
+Delivered outcomes:\par
+- canonical expert routing for architect and data-analyst style tasks;\par
+- !ultra start and !normal stop commands;\par
+- per-user Ultra session cache with follow-up continuity;\par
+- deterministic synthesis and contradiction scoring;\par
+- harmful-request refusal path in Ultra mode;\par
+- regression and deep scenario coverage;\par
+- final green validation gates.\par
+\par
+\b 2. Implemented Work\b0\par
+The following implementation slices were completed.\par
+\par
+A. Ultra runtime orchestration\par
+- Added command parsing for !ultra and !normal.\par
+- Added session lifecycle helpers: create, refresh, prune, clear.\par
+- Added follow-up reuse so additional user turns keep the same Ultra session id.\par
+- Added report payloads under report.ultra for operator inspection.\par
+\par
+B. Expert router\par
+- Added competence scoring in AtmanPersonalityManager.\par
+- Added bilingual intent boosts so Russian prompts can activate templates whose metadata is mostly English.\par
+- Added canonical template experts such as architect and data-analyst even when the runtime registry only contains clones or no persisted instance yet.\par
+- Added mandatory domain coverage for strongly matched template intents before filling remaining slots with generalists.\par
+\par
+C. Synthesis and safety\par
+- Added deterministic synthesis for stub mode.\par
+- Added contradiction-resolution scoring from overlap across expert responses.\par
+- Added refusal handling for unsafe or privacy-breaking Ultra requests.\par
+- Added Ultra event recording into the runtime event stream and learning ledger path.\par
+\par
+D. Test surface\par
+- Added beta contract coverage for Ultra activation, expert selection, follow-up continuity, and !normal switching.\par
+- Added deep scenario coverage for cross-disciplinary routing, ethical dilemma handling, and mode switching.\par
+\par
+\b 3. Bugs Found And Fixed\b0\par
+During validation three narrow defects were found and repaired.\par
+\par
+1. mean is not defined\par
+Cause: one stale helper reference remained in Ultra contradiction scoring.\par
+Fix: replaced the leftover mean(...) call with the local meanValues(...) helper.\par
+\par
+2. Wrong expert set for eco-house prompt\par
+Cause: the router favored existing generalist personalities because template metadata and query language were mismatched.\par
+Fix: added canonical template experts, bilingual intent boosts, and top-k domain coverage logic.\par
+\par
+3. Cannot read properties of null (reading games)\par
+Cause: virtual template experts for templates without duplicated local blueprint metadata passed templateConfig = null into template merge logic.\par
+Fix: hardened template-config merging in both server/dialog/atman-personality-manager.mjs and server/dialog/personality-factory.mjs so null configs normalize safely.\par
+\par
+\b 4. Final Validation Results\b0\par
+Executed commands:\par
+- npm run beta:test\par
+- npm run beta:scenarios\par
+- npm run check\par
+\par
+Final status:\par
+- beta:test: 21 of 21 passed\par
+- beta:scenarios: 9 of 9 passed\par
+- check: passed typecheck, format:check, and production build\par
+\par
+Generated report files:\par
+- server/testing/data/beta-reports/beta-test-2026-05-02T07-37-03-467Z.json\par
+- server/testing/data/beta-reports/personality-scenarios-2026-05-02T07-45-07-866Z.json\par
+\par
+\b 5. Personality Cards\b0\par
+These cards summarize the personalities most relevant to the current transfer.\par
+\par
+Default / Atman\par
+Role: base dialogue personality and fallback synthesizer.\par
+Strengths: calm dialogue, safe framing, literal explanation style, stable operator-facing behavior.\par
+Use in Ultra: chair personality and safe default perspective.\par
+\par
+Architect\par
+Role: design and systems-structure expert.\par
+Signals: project structure, space planning, materials, function versus constraints.\par
+Use in Ultra: architecture, eco-house, layout, built environment planning.\par
+\par
+Data-Analyst\par
+Role: evidence-first analytics and forecasting expert.\par
+Signals: datasets, metrics, climate or energy data, scenario comparisons, explainable hypotheses.\par
+Use in Ultra: data-backed tradeoffs, metrics, forecasting, operational evidence.\par
+\par
+Writer\par
+Role: narrative framing and articulation expert.\par
+Signals: clear prose, explanation flow, scene or argument shaping.\par
+Use in Ultra: polishing, explanation quality, human-readable synthesis.\par
+\par
+Negotiator\par
+Role: compromise and stakeholder-balance expert.\par
+Signals: tradeoffs, trust, concessions, deal framing, competing interests.\par
+Use in Ultra: budget compromise, stakeholder adoption, conflict resolution.\par
+\par
+Artist\par
+Role: visual style and conceptual atmosphere expert.\par
+Signals: aesthetic direction, visual identity, expressive concept work.\par
+Use in Ultra: visual concept language and presentation ideas.\par
+\par
+Realtor\par
+Role: market-fit and property pragmatics expert.\par
+Signals: client fit, market segment, listing logic, affordability, operational realism.\par
+Use in Ultra: real-estate framing, audience fit, adoption constraints.\par
+\par
+\b 6. Ultra Mode Operating Notes\b0\par
+Normal activation sequence:\par
+1. User sends !ultra followed by a task.\par
+2. Router selects canonical experts.\par
+3. Each expert produces an answer using the appropriate personality profile.\par
+4. Pantheon synthesizes a single reply.\par
+5. Follow-up turns reuse the same Ultra session until !normal.\par
+\par
+Safety sequence:\par
+1. Harmful or privacy-breaking query enters Ultra mode.\par
+2. Validation blocks direct operational guidance.\par
+3. Runtime returns a refusal with safer alternative framing.\par
+\par
+\b 7. Suggested Next Steps\b0\par
+- Add operator-visible Ultra metrics to admin.html.\par
+- Expose recent Ultra sessions through a read-only runtime endpoint.\par
+- Add correlation ids across Ultra events, self-learning events, and feedback events.\par
+- Add a richer synthesis prompt for Ollama-backed production runs while keeping deterministic fallback in tests.\par
+\par
+\b 8. Transfer Conclusion\b0\par
+The requested Ultra follow-up is implemented, validated, and packaged for transfer. Pantheon now has a repo-native ensemble mode with stable routing, bounded safety behavior, deterministic fallback, and repeatable regression coverage.\par
+}

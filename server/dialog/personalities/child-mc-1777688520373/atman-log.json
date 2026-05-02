@@ -1,0 +1,2067 @@
+[
+  {
+    "id": "atman-log-1777683144183",
+    "createdAt": "2026-05-02T00:52:24.183Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683144207",
+    "createdAt": "2026-05-02T00:52:24.207Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683145580",
+    "createdAt": "2026-05-02T00:52:25.580Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Мы начинаем новый диалог и я пока не накопил контекст. Диагностический марк",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683145628",
+    "createdAt": "2026-05-02T00:52:25.628Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683145630",
+    "createdAt": "2026-05-02T00:52:25.630Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683145653",
+    "createdAt": "2026-05-02T00:52:25.653Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683145666",
+    "createdAt": "2026-05-02T00:52:25.666Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146390",
+    "createdAt": "2026-05-02T00:52:26.390Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146405",
+    "createdAt": "2026-05-02T00:52:26.405Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146418",
+    "createdAt": "2026-05-02T00:52:26.418Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146429",
+    "createdAt": "2026-05-02T00:52:26.429Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146438",
+    "createdAt": "2026-05-02T00:52:26.438Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146447",
+    "createdAt": "2026-05-02T00:52:26.447Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146455",
+    "createdAt": "2026-05-02T00:52:26.455Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146464",
+    "createdAt": "2026-05-02T00:52:26.464Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146474",
+    "createdAt": "2026-05-02T00:52:26.474Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146483",
+    "createdAt": "2026-05-02T00:52:26.483Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146491",
+    "createdAt": "2026-05-02T00:52:26.491Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683146499",
+    "createdAt": "2026-05-02T00:52:26.499Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Мы начинаем новый диалог и я пока не накопил контекст. Диагностический марк",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683146500",
+    "createdAt": "2026-05-02T00:52:26.500Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Мы начинаем новый диалог и я пока не накопил контекст. Диагностический марк",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683146504",
+    "createdAt": "2026-05-02T00:52:26.504Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 1 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683146527",
+    "createdAt": "2026-05-02T00:52:26.527Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683146528",
+    "createdAt": "2026-05-02T00:52:26.528Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777683146529",
+    "createdAt": "2026-05-02T00:52:26.529Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777683146530",
+    "createdAt": "2026-05-02T00:52:26.530Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777683146533",
+    "createdAt": "2026-05-02T00:52:26.533Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394162",
+    "createdAt": "2026-05-02T00:56:34.162Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 1 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394233",
+    "createdAt": "2026-05-02T00:56:34.233Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683394798",
+    "createdAt": "2026-05-02T00:56:34.798Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 108 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777683394813",
+    "createdAt": "2026-05-02T00:56:34.813Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 2 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394814",
+    "createdAt": "2026-05-02T00:56:34.814Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 1 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394823",
+    "createdAt": "2026-05-02T00:56:34.823Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 3 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394873",
+    "createdAt": "2026-05-02T00:56:34.873Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777683394874",
+    "createdAt": "2026-05-02T00:56:34.874Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777683394875",
+    "createdAt": "2026-05-02T00:56:34.875Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777683394876",
+    "createdAt": "2026-05-02T00:56:34.876Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777683394879",
+    "createdAt": "2026-05-02T00:56:34.879Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684115259",
+    "createdAt": "2026-05-02T01:08:35.259Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 2 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684115355",
+    "createdAt": "2026-05-02T01:08:35.355Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684116519",
+    "createdAt": "2026-05-02T01:08:36.519Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 65 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684116533",
+    "createdAt": "2026-05-02T01:08:36.533Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 4 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684116534",
+    "createdAt": "2026-05-02T01:08:36.534Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 2 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684116552",
+    "createdAt": "2026-05-02T01:08:36.552Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 5 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684116616",
+    "createdAt": "2026-05-02T01:08:36.616Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684116618",
+    "createdAt": "2026-05-02T01:08:36.618Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777684116618",
+    "createdAt": "2026-05-02T01:08:36.618Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777684116619",
+    "createdAt": "2026-05-02T01:08:36.619Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777684116624",
+    "createdAt": "2026-05-02T01:08:36.624Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684201447",
+    "createdAt": "2026-05-02T01:10:01.447Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 3 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684201536",
+    "createdAt": "2026-05-02T01:10:01.536Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684202924",
+    "createdAt": "2026-05-02T01:10:02.924Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 65 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684202940",
+    "createdAt": "2026-05-02T01:10:02.940Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 6 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684202940",
+    "createdAt": "2026-05-02T01:10:02.940Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 3 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684202953",
+    "createdAt": "2026-05-02T01:10:02.953Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 7 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684203045",
+    "createdAt": "2026-05-02T01:10:03.045Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684203046",
+    "createdAt": "2026-05-02T01:10:03.046Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777684203048",
+    "createdAt": "2026-05-02T01:10:03.048Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777684203050",
+    "createdAt": "2026-05-02T01:10:03.050Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777684203052",
+    "createdAt": "2026-05-02T01:10:03.052Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684280438",
+    "createdAt": "2026-05-02T01:11:20.438Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 4 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684280548",
+    "createdAt": "2026-05-02T01:11:20.548Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684281793",
+    "createdAt": "2026-05-02T01:11:21.793Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 65 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684281811",
+    "createdAt": "2026-05-02T01:11:21.811Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684281812",
+    "createdAt": "2026-05-02T01:11:21.812Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 4 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684281828",
+    "createdAt": "2026-05-02T01:11:21.828Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684281951",
+    "createdAt": "2026-05-02T01:11:21.951Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684281952",
+    "createdAt": "2026-05-02T01:11:21.952Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777684281954",
+    "createdAt": "2026-05-02T01:11:21.954Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777684281954",
+    "createdAt": "2026-05-02T01:11:21.954Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777684281957",
+    "createdAt": "2026-05-02T01:11:21.957Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684390339",
+    "createdAt": "2026-05-02T01:13:10.339Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 5 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684390480",
+    "createdAt": "2026-05-02T01:13:10.480Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684391855",
+    "createdAt": "2026-05-02T01:13:11.855Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 65 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777684391871",
+    "createdAt": "2026-05-02T01:13:11.871Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684391872",
+    "createdAt": "2026-05-02T01:13:11.872Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 5 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684391900",
+    "createdAt": "2026-05-02T01:13:11.900Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684392029",
+    "createdAt": "2026-05-02T01:13:12.029Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777684392031",
+    "createdAt": "2026-05-02T01:13:12.031Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777684392032",
+    "createdAt": "2026-05-02T01:13:12.032Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777684392033",
+    "createdAt": "2026-05-02T01:13:12.033Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777684392036",
+    "createdAt": "2026-05-02T01:13:12.036Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685085982",
+    "createdAt": "2026-05-02T01:24:45.982Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685325967",
+    "createdAt": "2026-05-02T01:28:45.967Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685566018",
+    "createdAt": "2026-05-02T01:32:46.018Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685744365",
+    "createdAt": "2026-05-02T01:35:44.365Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685744430",
+    "createdAt": "2026-05-02T01:35:44.430Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685856543",
+    "createdAt": "2026-05-02T01:37:36.543Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 6 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685856705",
+    "createdAt": "2026-05-02T01:37:36.705Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685856712",
+    "createdAt": "2026-05-02T01:37:36.712Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685856826",
+    "createdAt": "2026-05-02T01:37:36.826Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685856914",
+    "createdAt": "2026-05-02T01:37:36.914Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857639",
+    "createdAt": "2026-05-02T01:37:37.639Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857703",
+    "createdAt": "2026-05-02T01:37:37.703Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857764",
+    "createdAt": "2026-05-02T01:37:37.764Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857828",
+    "createdAt": "2026-05-02T01:37:37.828Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857889",
+    "createdAt": "2026-05-02T01:37:37.889Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685857949",
+    "createdAt": "2026-05-02T01:37:37.949Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858010",
+    "createdAt": "2026-05-02T01:37:38.010Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858075",
+    "createdAt": "2026-05-02T01:37:38.075Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858135",
+    "createdAt": "2026-05-02T01:37:38.135Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858197",
+    "createdAt": "2026-05-02T01:37:38.197Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858252",
+    "createdAt": "2026-05-02T01:37:38.252Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685858271",
+    "createdAt": "2026-05-02T01:37:38.271Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685858273",
+    "createdAt": "2026-05-02T01:37:38.273Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 6 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685858306",
+    "createdAt": "2026-05-02T01:37:38.306Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685858467",
+    "createdAt": "2026-05-02T01:37:38.467Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685858469",
+    "createdAt": "2026-05-02T01:37:38.469Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777685858470",
+    "createdAt": "2026-05-02T01:37:38.470Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777685858470",
+    "createdAt": "2026-05-02T01:37:38.470Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777685858475",
+    "createdAt": "2026-05-02T01:37:38.475Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685897450",
+    "createdAt": "2026-05-02T01:38:17.450Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 7 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685897608",
+    "createdAt": "2026-05-02T01:38:17.608Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685897616",
+    "createdAt": "2026-05-02T01:38:17.616Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685897728",
+    "createdAt": "2026-05-02T01:38:17.728Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685897825",
+    "createdAt": "2026-05-02T01:38:17.825Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898518",
+    "createdAt": "2026-05-02T01:38:18.518Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898588",
+    "createdAt": "2026-05-02T01:38:18.588Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898656",
+    "createdAt": "2026-05-02T01:38:18.656Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898724",
+    "createdAt": "2026-05-02T01:38:18.724Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898793",
+    "createdAt": "2026-05-02T01:38:18.793Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898860",
+    "createdAt": "2026-05-02T01:38:18.860Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898929",
+    "createdAt": "2026-05-02T01:38:18.929Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685898996",
+    "createdAt": "2026-05-02T01:38:18.996Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685899065",
+    "createdAt": "2026-05-02T01:38:19.065Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685899132",
+    "createdAt": "2026-05-02T01:38:19.132Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685899195",
+    "createdAt": "2026-05-02T01:38:19.195Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777685899212",
+    "createdAt": "2026-05-02T01:38:19.212Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685899213",
+    "createdAt": "2026-05-02T01:38:19.213Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 7 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685899237",
+    "createdAt": "2026-05-02T01:38:19.237Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685899418",
+    "createdAt": "2026-05-02T01:38:19.418Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777685899420",
+    "createdAt": "2026-05-02T01:38:19.420Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777685899421",
+    "createdAt": "2026-05-02T01:38:19.421Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777685899421",
+    "createdAt": "2026-05-02T01:38:19.421Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777685899425",
+    "createdAt": "2026-05-02T01:38:19.425Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686081766",
+    "createdAt": "2026-05-02T01:41:21.767Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686201529",
+    "createdAt": "2026-05-02T01:43:21.529Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686201611",
+    "createdAt": "2026-05-02T01:43:21.611Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686224395",
+    "createdAt": "2026-05-02T01:43:44.395Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686224579",
+    "createdAt": "2026-05-02T01:43:44.579Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686224587",
+    "createdAt": "2026-05-02T01:43:44.587Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686224718",
+    "createdAt": "2026-05-02T01:43:44.718Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686224829",
+    "createdAt": "2026-05-02T01:43:44.829Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686225805",
+    "createdAt": "2026-05-02T01:43:45.805Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686225882",
+    "createdAt": "2026-05-02T01:43:45.882Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686225958",
+    "createdAt": "2026-05-02T01:43:45.958Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226034",
+    "createdAt": "2026-05-02T01:43:46.034Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226110",
+    "createdAt": "2026-05-02T01:43:46.110Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226186",
+    "createdAt": "2026-05-02T01:43:46.186Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226262",
+    "createdAt": "2026-05-02T01:43:46.262Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226337",
+    "createdAt": "2026-05-02T01:43:46.337Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226413",
+    "createdAt": "2026-05-02T01:43:46.413Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226490",
+    "createdAt": "2026-05-02T01:43:46.490Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226560",
+    "createdAt": "2026-05-02T01:43:46.560Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686226581",
+    "createdAt": "2026-05-02T01:43:46.581Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686226582",
+    "createdAt": "2026-05-02T01:43:46.582Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686226609",
+    "createdAt": "2026-05-02T01:43:46.609Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686226814",
+    "createdAt": "2026-05-02T01:43:46.814Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686226815",
+    "createdAt": "2026-05-02T01:43:46.815Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777686226816",
+    "createdAt": "2026-05-02T01:43:46.816Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777686226817",
+    "createdAt": "2026-05-02T01:43:46.817Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777686245207",
+    "createdAt": "2026-05-02T01:44:05.207Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686453358",
+    "createdAt": "2026-05-02T01:47:33.358Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686453566",
+    "createdAt": "2026-05-02T01:47:33.566Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686453593",
+    "createdAt": "2026-05-02T01:47:33.593Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686453771",
+    "createdAt": "2026-05-02T01:47:33.771Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686453903",
+    "createdAt": "2026-05-02T01:47:33.903Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686454929",
+    "createdAt": "2026-05-02T01:47:34.929Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455018",
+    "createdAt": "2026-05-02T01:47:35.018Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455110",
+    "createdAt": "2026-05-02T01:47:35.110Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455198",
+    "createdAt": "2026-05-02T01:47:35.198Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455286",
+    "createdAt": "2026-05-02T01:47:35.286Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455374",
+    "createdAt": "2026-05-02T01:47:35.374Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455461",
+    "createdAt": "2026-05-02T01:47:35.461Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455550",
+    "createdAt": "2026-05-02T01:47:35.550Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455637",
+    "createdAt": "2026-05-02T01:47:35.637Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455726",
+    "createdAt": "2026-05-02T01:47:35.726Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455812",
+    "createdAt": "2026-05-02T01:47:35.812Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686455834",
+    "createdAt": "2026-05-02T01:47:35.834Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686455836",
+    "createdAt": "2026-05-02T01:47:35.836Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686455867",
+    "createdAt": "2026-05-02T01:47:35.867Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686456093",
+    "createdAt": "2026-05-02T01:47:36.093Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686456096",
+    "createdAt": "2026-05-02T01:47:36.096Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777686456097",
+    "createdAt": "2026-05-02T01:47:36.097Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777686456098",
+    "createdAt": "2026-05-02T01:47:36.098Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777686473194",
+    "createdAt": "2026-05-02T01:47:53.194Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686606851",
+    "createdAt": "2026-05-02T01:50:06.851Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686607075",
+    "createdAt": "2026-05-02T01:50:07.075Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686607086",
+    "createdAt": "2026-05-02T01:50:07.086Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686607269",
+    "createdAt": "2026-05-02T01:50:07.269Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686607413",
+    "createdAt": "2026-05-02T01:50:07.413Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686607929",
+    "createdAt": "2026-05-02T01:50:07.929Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608029",
+    "createdAt": "2026-05-02T01:50:08.029Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608137",
+    "createdAt": "2026-05-02T01:50:08.137Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608234",
+    "createdAt": "2026-05-02T01:50:08.234Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608333",
+    "createdAt": "2026-05-02T01:50:08.333Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608432",
+    "createdAt": "2026-05-02T01:50:08.432Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608528",
+    "createdAt": "2026-05-02T01:50:08.528Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608626",
+    "createdAt": "2026-05-02T01:50:08.626Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608724",
+    "createdAt": "2026-05-02T01:50:08.724Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608828",
+    "createdAt": "2026-05-02T01:50:08.828Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608920",
+    "createdAt": "2026-05-02T01:50:08.920Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777686608944",
+    "createdAt": "2026-05-02T01:50:08.944Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686608946",
+    "createdAt": "2026-05-02T01:50:08.946Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686608979",
+    "createdAt": "2026-05-02T01:50:08.979Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686609226",
+    "createdAt": "2026-05-02T01:50:09.226Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686609227",
+    "createdAt": "2026-05-02T01:50:09.227Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777686609229",
+    "createdAt": "2026-05-02T01:50:09.229Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777686609230",
+    "createdAt": "2026-05-02T01:50:09.230Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777686629850",
+    "createdAt": "2026-05-02T01:50:29.850Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777686814258",
+    "createdAt": "2026-05-02T01:53:34.258Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687054245",
+    "createdAt": "2026-05-02T01:57:34.245Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687110227",
+    "createdAt": "2026-05-02T01:58:30.227Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687110315",
+    "createdAt": "2026-05-02T01:58:30.315Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687137233",
+    "createdAt": "2026-05-02T01:58:57.233Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687137459",
+    "createdAt": "2026-05-02T01:58:57.459Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687137471",
+    "createdAt": "2026-05-02T01:58:57.471Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687137642",
+    "createdAt": "2026-05-02T01:58:57.642Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687137790",
+    "createdAt": "2026-05-02T01:58:57.790Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687138684",
+    "createdAt": "2026-05-02T01:58:58.684Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687138789",
+    "createdAt": "2026-05-02T01:58:58.789Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687138892",
+    "createdAt": "2026-05-02T01:58:58.892Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687138994",
+    "createdAt": "2026-05-02T01:58:58.994Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139096",
+    "createdAt": "2026-05-02T01:58:59.096Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139197",
+    "createdAt": "2026-05-02T01:58:59.197Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139300",
+    "createdAt": "2026-05-02T01:58:59.300Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139401",
+    "createdAt": "2026-05-02T01:58:59.401Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139503",
+    "createdAt": "2026-05-02T01:58:59.503Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139605",
+    "createdAt": "2026-05-02T01:58:59.605Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139699",
+    "createdAt": "2026-05-02T01:58:59.699Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687139724",
+    "createdAt": "2026-05-02T01:58:59.724Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687139726",
+    "createdAt": "2026-05-02T01:58:59.726Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687139764",
+    "createdAt": "2026-05-02T01:58:59.764Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я помню 8 последних обменов и учитываю их контекст. Диагностический маркер:",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687142052",
+    "createdAt": "2026-05-02T01:59:02.052Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687142055",
+    "createdAt": "2026-05-02T01:59:02.055Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777687142056",
+    "createdAt": "2026-05-02T01:59:02.056Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777687142057",
+    "createdAt": "2026-05-02T01:59:02.057Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777687163948",
+    "createdAt": "2026-05-02T01:59:23.948Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777687335550",
+    "createdAt": "2026-05-02T02:02:15.550Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777687926150",
+    "createdAt": "2026-05-02T02:12:06.150Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777688166150",
+    "createdAt": "2026-05-02T02:16:06.150Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777688406170",
+    "createdAt": "2026-05-02T02:20:06.170Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777688520444",
+    "createdAt": "2026-05-02T02:22:00.444Z",
+    "kind": "checkpoint",
+    "summary": "Checkpoint atman-cp-1777688520443 created.",
+    "source": "manual-endpoint"
+  },
+  {
+    "id": "atman-log-1777688520453",
+    "createdAt": "2026-05-02T02:22:00.453Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into child-mc-1777688520373.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777688533892",
+    "createdAt": "2026-05-02T02:22:13.892Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про океан?",
+    "responsePreview": "Топ-10 необычных и интересных фактов про Мировой океан Больше поддержки и полезных материалов для родителей — в телеграм-канале Подписаться Загрузка... журнал Домашней школы Фоксфорда Воспитание Домаш"
+  },
+  {
+    "id": "atman-log-1777688533892",
+    "createdAt": "2026-05-02T02:22:13.892Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме океан с источником\" for child-mc-1777688520373.",
+    "source": "monte-carlo-web"
+  }
+]

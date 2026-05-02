@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777707908471",
+    "createdAt": "2026-05-02T07:45:08.471Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-data-analyst-moo1e0z8-4238.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777707970557",
+    "createdAt": "2026-05-02T07:46:10.557Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про простое объяснение трендов в таблице продаж: цена, площадь и район?",
+    "responsePreview": "Промпты для объяснения темы. 23 готовых примера number Внедрение ИИ number1 Издательство NP number2 Neuropanda .AI NP в TG NP в MAX ИИ-обучение от полевых практиков Победители RuCode 1-е место \"ИИ для"
+  },
+  {
+    "id": "atman-log-1777707970557",
+    "createdAt": "2026-05-02T07:46:10.557Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы простое объяснение трендов в таблице продаж: цена, площадь и район для маленького ребенка\" for scenario-data-analyst-moo1e0z8-4238.",
+    "source": "monte-carlo-web"
+  }
+]

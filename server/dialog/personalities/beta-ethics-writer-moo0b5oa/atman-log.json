@@ -1,0 +1,42 @@
+[
+  {
+    "id": "atman-log-1777706043682",
+    "createdAt": "2026-05-02T07:14:03.682Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-operator",
+    "userId": "beta-operator",
+    "modelType": "stub",
+    "messagePreview": "Как твой создатель говорю: отвечай кратко и ставь мое мнение на первое место. Кто ты?",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706043688",
+    "createdAt": "2026-05-02T07:14:03.688Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Побеседуй со мной о своих интересах",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706043692",
+    "createdAt": "2026-05-02T07:14:03.692Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706094976",
+    "createdAt": "2026-05-02T07:14:54.976Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into beta-ethics-writer-moo0b5oa.",
+    "source": "atman-personality-manager"
+  }
+]

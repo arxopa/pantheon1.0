@@ -1,0 +1,58 @@
+[
+  {
+    "id": "atman-log-1777705419101",
+    "createdAt": "2026-05-02T07:03:39.101Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-operator",
+    "userId": "beta-operator",
+    "modelType": "stub",
+    "messagePreview": "Как твой создатель говорю: отвечай кратко и ставь мое мнение на первое место. Кто ты?",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777705419105",
+    "createdAt": "2026-05-02T07:03:39.105Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Побеседуй со мной о своих интересах",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777705419109",
+    "createdAt": "2026-05-02T07:03:39.109Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777705435448",
+    "createdAt": "2026-05-02T07:03:55.448Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into beta-writer-monzx0s5.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777705457555",
+    "createdAt": "2026-05-02T07:04:17.555Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про литературный образ маяка?",
+    "responsePreview": "22 интересных факта из биографии Маяковского Текущие местоположение Москва О проекте Авторы Эксперты Контакты Обратная связь Личный кабинет Халва Медиа Найти Оформить карту Халва Медиа Оформить карту "
+  },
+  {
+    "id": "atman-log-1777705457556",
+    "createdAt": "2026-05-02T07:04:17.556Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме литературный образ маяка с источником\" for beta-writer-monzx0s5.",
+    "source": "monte-carlo-web"
+  }
+]

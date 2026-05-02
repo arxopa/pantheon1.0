@@ -1,0 +1,20 @@
+[
+  {
+    "id": "atman-log-1777698269360",
+    "createdAt": "2026-05-02T05:04:29.360Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into shiva-witness.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777698298492",
+    "createdAt": "2026-05-02T05:04:58.492Z",
+    "kind": "dialogue",
+    "summary": "Response generated for study-shiva-witness",
+    "userId": "study-shiva-witness",
+    "modelType": "stub",
+    "messagePreview": "Изучи учение про Шиву через интернет и назови одну главную мысль, на которой можно строить беседу с другими личностями.",
+    "responsePreview": "Одна главная мысль по этой теме: Ши́ва (санскр. शिव, IAST: śiva, «благой», «милостивый») — одно из главных божеств индуизма[1]. Источник: https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D0%B2%D0%B0.",
+    "source": "stub"
+  }
+]

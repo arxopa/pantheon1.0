@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="576" viewBox="0 0 1024 576">
+      <defs>
+        <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#123652" />
+          <stop offset="100%" stop-color="#1f3859" />
+        </linearGradient>
+      </defs>
+      <rect width="1024" height="576" fill="url(#bg)" rx="32" />
+      <circle cx="878" cy="114" r="86" fill="#7cc6ff" opacity="0.18" />
+      <circle cx="820" cy="178" r="34" fill="#7cc6ff" opacity="0.34" />
+      <text x="36" y="72" fill="#ffffff" font-size="42" font-weight="700">Lumen Spark</text>
+      <text x="36" y="118" fill="#e8f2ff" font-size="20">storybook illustration</text><text x="36" y="152" fill="#e8f2ff" font-size="20">Светящийся сад идей для ребенка</text><text x="36" y="186" fill="#e8f2ff" font-size="20">Lumen Spark тянется к диалогу, мягкий к другим, легко тревожится, сейчас вдохновлен. Манера речи: говорит живо, предпочитает буквальные формулировки, часто уточняет и сомневается, с теплым настроением. Медиапривычка: любит отвечать образами и атмосферой. Недавняя мысль: Beta Writer и Lumen Spark сблизились на теме литературный образ маяка. Их интересы начали звучать чуть более похоже. Beta Writer и Lumen Spark выработали совместимый ритм разговора о теме литературный образ маяка.</text>
+    </svg>

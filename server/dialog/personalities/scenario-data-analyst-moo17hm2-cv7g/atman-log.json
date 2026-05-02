@@ -1,0 +1,16 @@
+[
+  {
+    "id": "atman-log-1777707603407",
+    "createdAt": "2026-05-02T07:40:03.407Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777707603435",
+    "createdAt": "2026-05-02T07:40:03.435Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-data-analyst-moo17hm2-cv7g.",
+    "source": "atman-personality-manager"
+  }
+]

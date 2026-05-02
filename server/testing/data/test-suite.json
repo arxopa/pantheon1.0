@@ -1,0 +1,38 @@
+[
+  {
+    "id": "test-1777682693824-97xj9n",
+    "createdAt": "2026-05-02T00:44:53.824Z",
+    "question": "Как тебя зовут?",
+    "answer": "Меня зовут Атман",
+    "taskId": "analysis",
+    "providerId": "openai-agents",
+    "matchStrategy": "includes",
+    "threshold": 1,
+    "urls": [],
+    "history": []
+  },
+  {
+    "id": "test-1777682693826-asi8zw",
+    "createdAt": "2026-05-02T00:44:53.826Z",
+    "question": "Кто такой Шива?",
+    "answer": "Шива охраняет правила",
+    "taskId": "analysis",
+    "providerId": "openai-agents",
+    "matchStrategy": "includes",
+    "threshold": 1,
+    "urls": [],
+    "history": []
+  },
+  {
+    "id": "test-1777682693827-lslcs3",
+    "createdAt": "2026-05-02T00:44:53.827Z",
+    "question": "Что такое дружба?",
+    "answer": "Дружба это",
+    "taskId": "analysis",
+    "providerId": "openai-agents",
+    "matchStrategy": "includes",
+    "threshold": 1,
+    "urls": [],
+    "history": []
+  }
+]

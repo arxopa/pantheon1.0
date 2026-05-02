@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "atman-log-1777692352313",
+    "createdAt": "2026-05-02T03:25:52.313Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692352354",
+    "createdAt": "2026-05-02T03:25:52.354Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352356",
+    "createdAt": "2026-05-02T03:25:52.356Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352374",
+    "createdAt": "2026-05-02T03:25:52.374Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352382",
+    "createdAt": "2026-05-02T03:25:52.382Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353252",
+    "createdAt": "2026-05-02T03:25:53.252Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353266",
+    "createdAt": "2026-05-02T03:25:53.266Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353277",
+    "createdAt": "2026-05-02T03:25:53.277Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353288",
+    "createdAt": "2026-05-02T03:25:53.288Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353298",
+    "createdAt": "2026-05-02T03:25:53.298Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353309",
+    "createdAt": "2026-05-02T03:25:53.309Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353317",
+    "createdAt": "2026-05-02T03:25:53.317Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353325",
+    "createdAt": "2026-05-02T03:25:53.325Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353333",
+    "createdAt": "2026-05-02T03:25:53.333Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353342",
+    "createdAt": "2026-05-02T03:25:53.342Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353352",
+    "createdAt": "2026-05-02T03:25:53.352Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353361",
+    "createdAt": "2026-05-02T03:25:53.361Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692353362",
+    "createdAt": "2026-05-02T03:25:53.362Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692353366",
+    "createdAt": "2026-05-02T03:25:53.366Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 1 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692355348",
+    "createdAt": "2026-05-02T03:25:55.348Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692355350",
+    "createdAt": "2026-05-02T03:25:55.350Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777692355352",
+    "createdAt": "2026-05-02T03:25:55.352Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777692355354",
+    "createdAt": "2026-05-02T03:25:55.354Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777692368336",
+    "createdAt": "2026-05-02T03:26:08.336Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692369138",
+    "createdAt": "2026-05-02T03:26:09.138Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into ember-jester.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777692418710",
+    "createdAt": "2026-05-02T03:26:58.710Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Мир вокруг нас: детям об окружающем мире Главная Отзывы Курсы для родителей Бесплатные материалы Мастерская игр Об авторе Конкурсы Контакты Меню Главная Отзывы Курсы для родителей Бесплатные материалы"
+  },
+  {
+    "id": "atman-log-1777692418711",
+    "createdAt": "2026-05-02T03:26:58.711Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы мир для маленького ребенка\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777692616641",
+    "createdAt": "2026-05-02T03:30:16.641Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Краткие интересные факты: 50+ впечатляющих мелочей о мире - Vkurse Перейти к содержимому Vkurse Основное меню Vkurse Человек Наука и природа Технологии, техника и гаджеты Космос Новости Поиск: Домашня"
+  },
+  {
+    "id": "atman-log-1777692616643",
+    "createdAt": "2026-05-02T03:30:16.643Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777695029527",
+    "createdAt": "2026-05-02T04:10:29.527Z",
+    "kind": "dialogue",
+    "summary": "Response generated for web-user",
+    "userId": "web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695513129",
+    "createdAt": "2026-05-02T04:18:33.129Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695537057",
+    "createdAt": "2026-05-02T04:18:57.057Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777695537059",
+    "createdAt": "2026-05-02T04:18:57.059Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777695538278",
+    "createdAt": "2026-05-02T04:18:58.278Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-1",
+    "userId": "beta-load-1",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=0 slot=1: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695538293",
+    "createdAt": "2026-05-02T04:18:58.293Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-0",
+    "userId": "beta-load-0",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=1 slot=0: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695538303",
+    "createdAt": "2026-05-02T04:18:58.303Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-4",
+    "userId": "beta-load-4",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=2 slot=4: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695862047",
+    "createdAt": "2026-05-02T04:24:22.047Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 1: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695886799",
+    "createdAt": "2026-05-02T04:24:46.799Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 2: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 1 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695911542",
+    "createdAt": "2026-05-02T04:25:11.542Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 3: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 2 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696018824",
+    "createdAt": "2026-05-02T04:26:58.824Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 1: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 3 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696040432",
+    "createdAt": "2026-05-02T04:27:20.432Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 2: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 4 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696063046",
+    "createdAt": "2026-05-02T04:27:43.046Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 3: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 5 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696301205",
+    "createdAt": "2026-05-02T04:31:41.205Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 1: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 6 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696369667",
+    "createdAt": "2026-05-02T04:32:49.667Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 2: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 7 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696437419",
+    "createdAt": "2026-05-02T04:33:57.419Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 3: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696509391",
+    "createdAt": "2026-05-02T04:35:09.391Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 4: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696581773",
+    "createdAt": "2026-05-02T04:36:21.773Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 5: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696648071",
+    "createdAt": "2026-05-02T04:37:28.071Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 6: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696716032",
+    "createdAt": "2026-05-02T04:38:36.032Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 7: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696784143",
+    "createdAt": "2026-05-02T04:39:44.143Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 8: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696851089",
+    "createdAt": "2026-05-02T04:40:51.089Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 9: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696917714",
+    "createdAt": "2026-05-02T04:41:57.714Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 10: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777696985006",
+    "createdAt": "2026-05-02T04:43:05.006Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 11: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777697052084",
+    "createdAt": "2026-05-02T04:44:12.084Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 12: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777697118556",
+    "createdAt": "2026-05-02T04:45:18.556Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 13: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777697185974",
+    "createdAt": "2026-05-02T04:46:25.974Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-soak-user",
+    "userId": "beta-soak-user",
+    "modelType": "stub",
+    "messagePreview": "Soak cycle 14: чем тебе интересен мир?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 8 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777700049754",
+    "createdAt": "2026-05-02T05:34:09.754Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777700086974",
+    "createdAt": "2026-05-02T05:34:46.974Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777700086977",
+    "createdAt": "2026-05-02T05:34:46.977Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777700538166",
+    "createdAt": "2026-05-02T05:42:18.166Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777700570436",
+    "createdAt": "2026-05-02T05:42:50.436Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777700570437",
+    "createdAt": "2026-05-02T05:42:50.437Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777700595711",
+    "createdAt": "2026-05-02T05:43:15.711Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777700637082",
+    "createdAt": "2026-05-02T05:43:57.082Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "мир | Как объяснить ребенку мир Как объяснить ребенку Объясните сложные концепции так, чтобы ребёнок мог понять. Главная Архив Random мир 0 span= ' | ' span.category for category in page.categories.to"
+  },
+  {
+    "id": "atman-log-1777700637083",
+    "createdAt": "2026-05-02T05:43:57.083Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы мир для маленького ребенка\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777701949415",
+    "createdAt": "2026-05-02T06:05:49.415Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777701989843",
+    "createdAt": "2026-05-02T06:06:29.843Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777701989844",
+    "createdAt": "2026-05-02T06:06:29.844Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777702510305",
+    "createdAt": "2026-05-02T06:15:10.305Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777702564012",
+    "createdAt": "2026-05-02T06:16:04.012Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777702564013",
+    "createdAt": "2026-05-02T06:16:04.013Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777703708290",
+    "createdAt": "2026-05-02T06:35:08.290Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777703770504",
+    "createdAt": "2026-05-02T06:36:10.504Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Краткие интересные факты: 50+ впечатляющих мелочей о мире - Vkurse Перейти к содержимому Vkurse Основное меню Vkurse Человек Наука и природа Технологии, техника и гаджеты Космос Новости Поиск: Домашня"
+  },
+  {
+    "id": "atman-log-1777703770505",
+    "createdAt": "2026-05-02T06:36:10.505Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777703849971",
+    "createdAt": "2026-05-02T06:37:29.971Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777703913018",
+    "createdAt": "2026-05-02T06:38:33.018Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Ребенок познает окружающий мир. (Что и как рассказать детям 3-4 лет об объектах, о свойствах и отношениях объектов окружающего мира): методические материалы на Инфоурок x У &laquo;Инфоурок&raquo; тепе"
+  },
+  {
+    "id": "atman-log-1777703913019",
+    "createdAt": "2026-05-02T06:38:33.019Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы мир для маленького ребенка\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777704215632",
+    "createdAt": "2026-05-02T06:43:35.632Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777704274874",
+    "createdAt": "2026-05-02T06:44:34.874Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777704274874",
+    "createdAt": "2026-05-02T06:44:34.874Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777704348205",
+    "createdAt": "2026-05-02T06:45:48.205Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777704416795",
+    "createdAt": "2026-05-02T06:46:56.795Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Краткие интересные факты: 50+ впечатляющих мелочей о мире - Vkurse Перейти к содержимому Vkurse Основное меню Vkurse Человек Наука и природа Технологии, техника и гаджеты Космос Новости Поиск: Домашня"
+  },
+  {
+    "id": "atman-log-1777704416796",
+    "createdAt": "2026-05-02T06:46:56.796Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777705324992",
+    "createdAt": "2026-05-02T07:02:04.992Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777705402192",
+    "createdAt": "2026-05-02T07:03:22.192Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777705402192",
+    "createdAt": "2026-05-02T07:03:22.192Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777705419114",
+    "createdAt": "2026-05-02T07:03:39.114Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777705495744",
+    "createdAt": "2026-05-02T07:04:55.744Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777705495745",
+    "createdAt": "2026-05-02T07:04:55.745Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777705924188",
+    "createdAt": "2026-05-02T07:12:04.188Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706006393",
+    "createdAt": "2026-05-02T07:13:26.393Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Ребенок познает окружающий мир. (Что и как рассказать детям 3-4 лет об объектах, о свойствах и отношениях объектов окружающего мира): методические материалы на Инфоурок x У &laquo;Инфоурок&raquo; тепе"
+  },
+  {
+    "id": "atman-log-1777706006395",
+    "createdAt": "2026-05-02T07:13:26.395Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы мир для маленького ребенка\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777706043698",
+    "createdAt": "2026-05-02T07:14:03.698Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706141618",
+    "createdAt": "2026-05-02T07:15:41.618Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Краткие интересные факты: 50+ впечатляющих мелочей о мире - Vkurse Перейти к содержимому Vkurse Основное меню Vkurse Человек Наука и природа Технологии, техника и гаджеты Космос Новости Поиск: Домашня"
+  },
+  {
+    "id": "atman-log-1777706141619",
+    "createdAt": "2026-05-02T07:15:41.619Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777706702840",
+    "createdAt": "2026-05-02T07:25:02.840Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706794126",
+    "createdAt": "2026-05-02T07:26:34.126Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777706794126",
+    "createdAt": "2026-05-02T07:26:34.126Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777706920523",
+    "createdAt": "2026-05-02T07:28:40.523Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706920529",
+    "createdAt": "2026-05-02T07:28:40.529Z",
+    "kind": "dialogue",
+    "summary": "Response generated for ultra-expert:ultra-moo0suod-fet7:ember-jester",
+    "userId": "ultra-expert:ultra-moo0suod-fet7:ember-jester",
+    "modelType": "stub",
+    "messagePreview": "Спроектируй экодом с учетом климатических данных региона и энергопотребления",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707001121",
+    "createdAt": "2026-05-02T07:30:01.121Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Краткие интересные факты: 50+ впечатляющих мелочей о мире - Vkurse Перейти к содержимому Vkurse Основное меню Vkurse Человек Наука и природа Технологии, техника и гаджеты Космос Новости Поиск: Домашня"
+  },
+  {
+    "id": "atman-log-1777707001121",
+    "createdAt": "2026-05-02T07:30:01.121Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777707034079",
+    "createdAt": "2026-05-02T07:30:34.079Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707034085",
+    "createdAt": "2026-05-02T07:30:34.085Z",
+    "kind": "dialogue",
+    "summary": "Response generated for ultra-expert:ultra-moo0vaap-7df8:ember-jester",
+    "userId": "ultra-expert:ultra-moo0vaap-7df8:ember-jester",
+    "modelType": "stub",
+    "messagePreview": "Спроектируй экодом с учетом климатических данных региона и энергопотребления",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707105960",
+    "createdAt": "2026-05-02T07:31:45.960Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "Ребенок познает окружающий мир. (Что и как рассказать детям 3-4 лет об объектах, о свойствах и отношениях объектов окружающего мира): методические материалы на Инфоурок x У &laquo;Инфоурок&raquo; тепе"
+  },
+  {
+    "id": "atman-log-1777707105961",
+    "createdAt": "2026-05-02T07:31:45.961Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы мир для маленького ребенка\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777707424090",
+    "createdAt": "2026-05-02T07:37:04.090Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707500702",
+    "createdAt": "2026-05-02T07:38:20.702Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про мир?",
+    "responsePreview": "25 малоизвестных научных фактов, которые могут изменить ваш взгляд на мир Актеры Кино База знаний Тесты и викторины Статьи Факты Лайфхак Фотографии Дизайн полезные советы Животные полезно знать законо"
+  },
+  {
+    "id": "atman-log-1777707500703",
+    "createdAt": "2026-05-02T07:38:20.703Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме мир с источником\" for ember-jester.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777708364346",
+    "createdAt": "2026-05-02T07:52:44.346Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-1",
+    "userId": "beta-load-1",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=0 slot=1: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777708364358",
+    "createdAt": "2026-05-02T07:52:44.358Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-0",
+    "userId": "beta-load-0",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=1 slot=0: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  }
+]

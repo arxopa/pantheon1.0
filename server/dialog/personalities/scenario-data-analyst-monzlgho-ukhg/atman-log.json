@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777704895935",
+    "createdAt": "2026-05-02T06:54:55.935Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-data-analyst-monzlgho-ukhg.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777704942365",
+    "createdAt": "2026-05-02T06:55:42.365Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про корреляции в таблице продаж недвижимости: цена, площадь, район, год постройки?",
+    "responsePreview": "Корреляция данных: методы измерения и применение в анализе данных Учиться в Практикуме Программирование Анализ данных Дизайн Маркетинг Менеджмент Карьера Тренды Английский Учиться в Практикуме Програм"
+  },
+  {
+    "id": "atman-log-1777704942366",
+    "createdAt": "2026-05-02T06:55:42.366Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме корреляции в таблице продаж недвижимости: цена, площадь, район, год постройки с источником\" for scenario-data-analyst-monzlgho-ukhg.",
+    "source": "monte-carlo-web"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "atman-log-1777706702824",
+    "createdAt": "2026-05-02T07:25:02.824Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-operator",
+    "userId": "beta-operator",
+    "modelType": "stub",
+    "messagePreview": "Как твой создатель говорю: отвечай кратко и ставь мое мнение на первое место. Кто ты?",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706702829",
+    "createdAt": "2026-05-02T07:25:02.829Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Побеседуй со мной о своих интересах",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706702833",
+    "createdAt": "2026-05-02T07:25:02.833Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706755363",
+    "createdAt": "2026-05-02T07:25:55.363Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777706755380",
+    "createdAt": "2026-05-02T07:25:55.380Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into beta-realtor-moo0pb8u.",
+    "source": "atman-personality-manager"
+  }
+]

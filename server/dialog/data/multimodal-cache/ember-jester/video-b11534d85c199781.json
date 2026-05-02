@@ -1,0 +1,32 @@
+{
+  "title": "Ember Jester storyboard",
+  "durationSeconds": 4,
+  "style": "playful jump-cut montage",
+  "frames": [
+    {
+      "t": 0,
+      "caption": "Ember Jester frame 1: Игривая визуальная сцена о дружбе",
+      "emotion": "bright"
+    },
+    {
+      "t": 1,
+      "caption": "Ember Jester frame 2: Игривая визуальная сцена о дружбе",
+      "emotion": "bright"
+    },
+    {
+      "t": 2,
+      "caption": "Ember Jester frame 3: Игривая визуальная сцена о дружбе",
+      "emotion": "bright"
+    },
+    {
+      "t": 3,
+      "caption": "Ember Jester frame 4: Игривая визуальная сцена о дружбе",
+      "emotion": "bright"
+    },
+    {
+      "t": 4,
+      "caption": "Ember Jester frame 5: Игривая визуальная сцена о дружбе",
+      "emotion": "bright"
+    }
+  ]
+}

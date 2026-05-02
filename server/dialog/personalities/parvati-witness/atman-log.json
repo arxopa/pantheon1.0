@@ -1,0 +1,36 @@
+[
+  {
+    "id": "atman-log-1777698660842",
+    "createdAt": "2026-05-02T05:11:00.842Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into parvati-witness.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777698694122",
+    "createdAt": "2026-05-02T05:11:34.122Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про отношения Шивы и Парвати?",
+    "responsePreview": "109.170.127.220 02.05.2026 08:11:07 Sorry, your request has been denied.. Источник: Притча о шиве и парвати - sbornik-fraz.ru. Ссылка: https://sbornik-fraz.ru/pritchi/pritcha-o-shive-i-parvati.html."
+  },
+  {
+    "id": "atman-log-1777698694122",
+    "createdAt": "2026-05-02T05:11:34.122Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы отношения Шивы и Парвати для маленького ребенка\" for parvati-witness.",
+    "source": "monte-carlo-web"
+  },
+  {
+    "id": "atman-log-1777698709532",
+    "createdAt": "2026-05-02T05:11:49.532Z",
+    "kind": "dialogue",
+    "summary": "Response generated for prompt-parvati-witness",
+    "userId": "prompt-parvati-witness",
+    "modelType": "stub",
+    "messagePreview": "отношения Шивы и Парвати",
+    "responsePreview": "Мне хочется ответить живо, но без лишнего шума. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Я попробую соединить факты ",
+    "source": "stub"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "kind": "pantheon-chaos-test",
+  "createdAt": "2026-05-02T04:18:59.274Z",
+  "baseUrl": "http://127.0.0.1:8822",
+  "results": [
+    {
+      "name": "malformed-json",
+      "passed": true,
+      "status": 500
+    },
+    {
+      "name": "bridge-fallback",
+      "passed": true,
+      "delivery": {
+        "delivered": false,
+        "reason": "delivery-failed",
+        "circuit": {
+          "name": "shakti-bridge-delivery",
+          "state": "closed",
+          "failures": 1,
+          "successes": 0,
+          "failureThreshold": 3,
+          "cooldownMs": 60000,
+          "openedAt": null,
+          "lastFailureAt": "2026-05-02T04:18:59.265Z",
+          "lastSuccessAt": null,
+          "lastError": {
+            "name": "TypeError",
+            "message": "fetch failed",
+            "stack": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:14976:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async fetchWithTimeout (file:///Users/ogr/Dots/ui/Dots2/server/core/runtime-hardening.mjs:45:12)\n    at async ShaktiBridge.postToWebhook (file:///Users/ogr/Dots/ui/Dots2/server/integrations/shakti-bridge.mjs:340:22)\n    at async CircuitBreaker.execute (file:///Users/ogr/Dots/ui/Dots2/server/core/runtime-hardening.mjs:149:22)\n    at async ShaktiBridge.startSession (file:///Users/ogr/Dots/ui/Dots2/server/integrations/shakti-bridge.mjs:379:18)\n    at async Server.<anonymous> (file:///Users/ogr/Dots/ui/Dots2/server/agent-runtime.mjs:3034:22)"
+          }
+        },
+        "error": "fetch failed"
+      }
+    },
+    {
+      "name": "health-after-bridge-failure",
+      "passed": true,
+      "status": "healthy"
+    },
+    {
+      "name": "telegram-validation",
+      "passed": true,
+      "status": 400,
+      "body": {
+        "error": "chatId and text are required."
+      }
+    },
+    {
+      "name": "supervisor-still-healthy",
+      "passed": true,
+      "overall": "healthy"
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0
+  }
+}

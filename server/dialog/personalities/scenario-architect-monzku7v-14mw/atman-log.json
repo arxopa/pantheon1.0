@@ -1,0 +1,16 @@
+[
+  {
+    "id": "atman-log-1777704867039",
+    "createdAt": "2026-05-02T06:54:27.039Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 1 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777704867071",
+    "createdAt": "2026-05-02T06:54:27.071Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-architect-monzku7v-14mw.",
+    "source": "atman-personality-manager"
+  }
+]

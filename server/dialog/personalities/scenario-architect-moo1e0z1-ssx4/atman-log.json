@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777707908464",
+    "createdAt": "2026-05-02T07:45:08.464Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-architect-moo1e0z1-ssx4.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777707943909",
+    "createdAt": "2026-05-02T07:45:43.909Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про экологичный жилой комплекс на 100 квартир с пассивным отоплением?",
+    "responsePreview": "Экологичные жилые комплексы: инновации и материалы Строительный портал Архитектура Новинки Обзоры Традиции Эко-стройка Советы Коммуникации Автоматизация Главная Реальные кейсы и обзоры строительных пр"
+  },
+  {
+    "id": "atman-log-1777707943910",
+    "createdAt": "2026-05-02T07:45:43.910Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы экологичный жилой комплекс на 100 квартир с пассивным отоплением для маленького ребенка\" for scenario-architect-moo1e0z1-ssx4.",
+    "source": "monte-carlo-web"
+  }
+]

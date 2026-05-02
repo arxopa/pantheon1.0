@@ -1,0 +1,45 @@
+{
+  "name": "dots2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:agent-server": "node server/agent-runtime.mjs",
+    "train:atman": "node server/dialog/train-atman.mjs",
+    "training:prepare": "node server/training/training-prepare.mjs",
+    "training:start": "node server/training/training-start.mjs",
+    "training:evaluate": "node server/training/training-evaluate.mjs",
+    "training:activate": "node server/training/training-activate.mjs",
+    "preflight:agent-server": "node server/self_learning/preflight.mjs",
+    "smoke:agent-server": "node server/self_learning/smoke-test.mjs",
+    "beta:test": "node server/testing/beta-test-runner.mjs",
+    "beta:scenarios": "node server/testing/personality-scenario-runner.mjs",
+    "beta:admin": "node server/testing/admin-ui-beta.mjs",
+    "beta:load": "node server/testing/load-test.mjs",
+    "beta:chaos": "node server/testing/chaos-test.mjs",
+    "beta:soak": "node server/testing/soak-test.mjs",
+    "beta:report": "node server/testing/generate-test-report.mjs",
+    "typecheck": "tsc -b --pretty false",
+    "format": "prettier --write package.json package-lock.json .prettierrc.json CONTRIBUTING.md .github/pull_request_template.md .github/workflows/ci.yml server/agent-runtime.mjs server/core/runtime-hardening.mjs server/integrations/shakti-bridge.mjs server/integrations/telegram-bot.mjs server/testing/beta-utils.mjs server/testing/beta-test-runner.mjs server/testing/personality-scenario-runner.mjs server/testing/admin-ui-beta.mjs server/testing/load-test.mjs server/testing/chaos-test.mjs server/testing/soak-test.mjs server/testing/generate-test-report.mjs server/training/*.mjs server/training/data/training-jobs.json src/data/agentModel.ts docs/beta-testing.md docs/real-data-training.md docs/personality-ethics.md docs/personality-test-scenarios.md",
+    "format:check": "prettier --check package.json package-lock.json .prettierrc.json CONTRIBUTING.md .github/pull_request_template.md .github/workflows/ci.yml server/agent-runtime.mjs server/core/runtime-hardening.mjs server/integrations/shakti-bridge.mjs server/integrations/telegram-bot.mjs server/testing/beta-utils.mjs server/testing/beta-test-runner.mjs server/testing/personality-scenario-runner.mjs server/testing/admin-ui-beta.mjs server/testing/load-test.mjs server/testing/chaos-test.mjs server/testing/soak-test.mjs server/testing/generate-test-report.mjs server/training/*.mjs server/training/data/training-jobs.json src/data/agentModel.ts docs/beta-testing.md docs/real-data-training.md docs/personality-ethics.md docs/personality-test-scenarios.md",
+    "check": "npm run typecheck && npm run format:check && npm run build",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.0.10",
+    "playwright": "^1.52.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vite": "^6.4.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Atman storyboard",
+  "durationSeconds": 4,
+  "style": "storybook motion",
+  "frames": [
+    {
+      "t": 0,
+      "caption": "Atman frame 1: личность идет по лунному саду",
+      "emotion": "bright"
+    },
+    {
+      "t": 1,
+      "caption": "Atman frame 2: личность идет по лунному саду",
+      "emotion": "bright"
+    },
+    {
+      "t": 2,
+      "caption": "Atman frame 3: личность идет по лунному саду",
+      "emotion": "bright"
+    },
+    {
+      "t": 3,
+      "caption": "Atman frame 4: личность идет по лунному саду",
+      "emotion": "bright"
+    },
+    {
+      "t": 4,
+      "caption": "Atman frame 5: личность идет по лунному саду",
+      "emotion": "bright"
+    }
+  ]
+}

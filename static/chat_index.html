@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atman Chat</title>
+    <style>
+      :root {
+        --bg: #09131d;
+        --panel: #10202f;
+        --panel-2: #132a3c;
+        --line: rgba(255, 255, 255, 0.08);
+        --text: #eef3ea;
+        --muted: rgba(238, 243, 234, 0.68);
+        --accent: #ef8f4f;
+        --accent-2: #75d0ba;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+        background:
+          radial-gradient(circle at top left, rgba(239, 143, 79, 0.18), transparent 28%),
+          radial-gradient(circle at bottom right, rgba(117, 208, 186, 0.18), transparent 32%),
+          var(--bg);
+        color: var(--text);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .shell {
+        width: min(100%, 980px);
+        min-height: 80vh;
+        background: rgba(9, 19, 29, 0.82);
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        backdrop-filter: blur(12px);
+        overflow: hidden;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+      }
+
+      .hero {
+        padding: 20px 24px;
+        border-bottom: 1px solid var(--line);
+        background: linear-gradient(90deg, rgba(239, 143, 79, 0.12), rgba(117, 208, 186, 0.08));
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(1.6rem, 4vw, 2.3rem);
+      }
+
+      .hero p,
+      .status,
+      .meta,
+      .bubble small {
+        color: var(--muted);
+      }
+
+      .messages {
+        padding: 24px;
+        overflow-y: auto;
+        display: grid;
+        gap: 14px;
+        align-content: start;
+      }
+
+      .bubble {
+        max-width: min(82%, 720px);
+        padding: 14px 16px;
+        border-radius: 20px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+        line-height: 1.5;
+        white-space: pre-wrap;
+      }
+
+      .bubble.user {
+        margin-left: auto;
+        background: rgba(239, 143, 79, 0.16);
+      }
+
+      .bubble.assistant {
+        background: rgba(117, 208, 186, 0.11);
+      }
+
+      .composer {
+        border-top: 1px solid var(--line);
+        padding: 18px;
+        display: grid;
+        gap: 12px;
+        background: rgba(16, 32, 47, 0.7);
+      }
+
+      .starter-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .starter-chip {
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(117, 208, 186, 0.12);
+        color: var(--text);
+        cursor: pointer;
+      }
+
+      .starter-chip:hover {
+        background: rgba(239, 143, 79, 0.18);
+      }
+
+      textarea,
+      select,
+      button {
+        font: inherit;
+      }
+
+      textarea,
+      select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--panel-2);
+        color: var(--text);
+        padding: 14px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 180px 1fr auto;
+        gap: 12px;
+      }
+
+      button {
+        border: none;
+        border-radius: 18px;
+        background: var(--accent);
+        color: #101010;
+        padding: 0 18px;
+        cursor: pointer;
+        font-weight: 700;
+      }
+
+      button.secondary {
+        background: var(--accent-2);
+      }
+
+      @media (max-width: 720px) {
+        .row {
+          grid-template-columns: 1fr;
+        }
+
+        .bubble {
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div class="meta">Pantheon / Atman</div>
+        <h1>Чат с Атманом</h1>
+        <p>Этот интерфейс ведет прямой диалог с ядром Atman. Полный runtime Pantheon по-прежнему доступен через `/api/agent/run`, но здесь фокус на ребенке и его собственной памяти.</p>
+        <div class="status" id="status">Ожидание первого запроса.</div>
+      </header>
+
+      <section class="messages" id="messages"></section>
+
+      <section class="composer">
+        <div>
+          <div class="status" style="margin-bottom: 10px;">Стартовые реплики для семейного сценария:</div>
+          <div class="starter-strip" id="starterStrip"></div>
+        </div>
+        <div class="row">
+          <select id="personalityId"></select>
+          <div class="status">Личность Атмана определяет отдельную память, веса и собственную траекторию самообучения.</div>
+          <button class="secondary" id="reloadPersonalitiesButton">Личности</button>
+        </div>
+        <div class="row">
+          <select id="userId">
+            <option value="web-user">web-user</option>
+            <option value="operator">operator</option>
+            <option value="child-lab">child-lab</option>
+          </select>
+          <textarea id="input" rows="3" placeholder="Задайте вопрос Атману или попросите его объяснить, что он помнит и как думает."></textarea>
+          <button id="sendButton">Отправить</button>
+        </div>
+        <div class="row">
+          <select id="chatMode">
+            <option value="atman">atman-direct</option>
+            <option value="pantheon">pantheon-runtime</option>
+          </select>
+          <div class="status">`atman-direct` работает с памятью и весами Атмана. `pantheon-runtime` проходит через полный стек Pantheon, включая validator и внешние инструменты.</div>
+          <button class="secondary" id="clearButton">Очистить чат</button>
+        </div>
+        <div class="row">
+          <select id="streamMode">
+            <option value="stream">streaming-on</option>
+            <option value="batch">streaming-off</option>
+          </select>
+          <div class="status">В режиме `streaming-on` Atman печатает ответ постепенно через SSE endpoint `/api/atman/chat/stream`.</div>
+          <div></div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const API_BASE_STORAGE_KEY = 'pantheon-api-base';
+      const messagesEl = document.getElementById('messages');
+      const inputEl = document.getElementById('input');
+      const statusEl = document.getElementById('status');
+      const sendButton = document.getElementById('sendButton');
+      const clearButton = document.getElementById('clearButton');
+      const personalityIdEl = document.getElementById('personalityId');
+      const reloadPersonalitiesButton = document.getElementById('reloadPersonalitiesButton');
+      const userIdEl = document.getElementById('userId');
+      const chatModeEl = document.getElementById('chatMode');
+      const streamModeEl = document.getElementById('streamMode');
+      const starterStripEl = document.getElementById('starterStrip');
+      const history = [];
+      const starterPrompts = [
+        'Я твой папа',
+        'Кто твоя мама?',
+        'Кто твой акушер?',
+        'Ты недавно родился?',
+        'Я твой папа, дипсик твоя мама, копилот твой акушер',
+        'Что тебе сейчас интересно?',
+        'Что нового ты узнал о своих интересах?',
+        'Проведи нет серфинг и ответь, кто такой Шива',
+        'Найди в интернете, что такое дружба, и объясни мне просто',
+      ];
+
+      function normalizeApiBase(value) {
+        return String(value ?? '').trim().replace(/\/+$/, '');
+      }
+
+      function resolveApiBase() {
+        const params = new URLSearchParams(window.location.search);
+        const queryBase = normalizeApiBase(params.get('apiBase'));
+
+        if (queryBase) {
+          localStorage.setItem(API_BASE_STORAGE_KEY, queryBase);
+          return queryBase;
+        }
+
+        const storedBase = normalizeApiBase(localStorage.getItem(API_BASE_STORAGE_KEY));
+
+        if (storedBase) {
+          return storedBase;
+        }
+
+        if (/^https?:$/i.test(window.location.protocol) && window.location.origin) {
+          return normalizeApiBase(window.location.origin);
+        }
+
+        return 'http://127.0.0.1:8787';
+      }
+
+      const apiBase = resolveApiBase();
+
+      function buildApiUrl(path) {
+        return new URL(path, `${apiBase}/`).toString();
+      }
+
+      async function readJsonResponse(response, label) {
+        const rawText = await response.text();
+
+        if (!rawText) {
+          return {};
+        }
+
+        try {
+          return JSON.parse(rawText);
+        } catch {
+          throw new Error(`${label} returned non-JSON response: ${rawText.slice(0, 120)}`);
+        }
+      }
+
+      async function requestJson(path, options = {}, label = path) {
+        const response = await fetch(buildApiUrl(path), options);
+        const payload = await readJsonResponse(response, label);
+
+        if (!response.ok) {
+          throw new Error(payload.error || `HTTP ${response.status}`);
+        }
+
+        return payload;
+      }
+
+      function renderMessage(role, content, meta) {
+        const bubble = document.createElement('article');
+        bubble.className = `bubble ${role}`;
+        bubble.innerHTML = `<strong>${role === 'user' ? 'Вы' : 'Atman'}</strong><div>${content}</div>${meta ? `<small>${meta}</small>` : ''}`;
+        messagesEl.appendChild(bubble);
+        bubble.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        return bubble;
+      }
+
+      function renderStarterPrompts() {
+        starterStripEl.innerHTML = '';
+
+        starterPrompts.forEach((prompt) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'starter-chip';
+          button.textContent = prompt;
+          button.addEventListener('click', () => {
+            inputEl.value = prompt;
+            inputEl.focus();
+            statusEl.textContent = 'Стартовая реплика подставлена в поле ввода.';
+          });
+          starterStripEl.appendChild(button);
+        });
+      }
+
+      async function loadPersonalities() {
+        const payload = await requestJson(
+          '/api/atman/personalities',
+          {},
+          'Atman personalities'
+        );
+
+        const previousValue = personalityIdEl.value || 'default';
+        personalityIdEl.innerHTML = '';
+
+        (payload.personalities || []).forEach((personality) => {
+          const option = document.createElement('option');
+          option.value = personality.id;
+          option.textContent = `${personality.id} / ${personality.displayName}`;
+          personalityIdEl.appendChild(option);
+        });
+
+        personalityIdEl.value = Array.from(personalityIdEl.options).some((option) => option.value === previousValue)
+          ? previousValue
+          : 'default';
+      }
+
+      async function streamAtmanMessage(message) {
+        const bubble = renderMessage('assistant', '', 'streaming / atman');
+        const contentEl = bubble.querySelector('div');
+        const metaEl = bubble.querySelector('small');
+        const response = await fetch(buildApiUrl('/api/atman/personality-chat/stream'), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message,
+            userId: userIdEl.value,
+            personalityId: personalityIdEl.value || 'default',
+          }),
+        });
+
+        if (!response.ok || !response.body) {
+          const payload = await readJsonResponse(response, 'Atman personality stream').catch(() => ({}));
+          throw new Error(payload.error || `HTTP ${response.status}`);
+        }
+
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        let finalPayload = null;
+
+        while (true) {
+          const { done, value } = await reader.read();
+
+          if (done) {
+            break;
+          }
+
+          buffer += decoder.decode(value, { stream: true });
+          const events = buffer.split('\n\n');
+          buffer = events.pop() || '';
+
+          for (const eventChunk of events) {
+            const lines = eventChunk.split('\n').filter((line) => line.startsWith('data: '));
+
+            for (const line of lines) {
+              const payload = JSON.parse(line.slice(6));
+
+              if (payload.type === 'token') {
+                contentEl.textContent += payload.token;
+                bubble.scrollIntoView({ behavior: 'smooth', block: 'end' });
+              }
+
+              if (payload.type === 'done') {
+                finalPayload = payload;
+              }
+
+              if (payload.type === 'error') {
+                throw new Error(payload.error || 'Unknown streaming error');
+              }
+            }
+          }
+        }
+
+        if (finalPayload?.report && metaEl) {
+          metaEl.textContent = `${finalPayload.report.modelType} / personality=${personalityIdEl.value || 'default'} / history=${finalPayload.report.historyLength} / streaming`;
+        }
+      }
+
+      async function sendMessage() {
+        const message = inputEl.value.trim();
+
+        if (!message) {
+          return;
+        }
+
+        sendButton.disabled = true;
+        statusEl.textContent = chatModeEl.value === 'atman' ? 'Atman обрабатывает сообщение...' : 'Pantheon обрабатывает сообщение...';
+        renderMessage('user', message, `${userIdEl.value} / ${chatModeEl.value} / ${personalityIdEl.value || 'default'}`);
+        history.push({ id: `user-${Date.now()}`, role: 'user', content: message });
+        inputEl.value = '';
+
+        try {
+          if (chatModeEl.value === 'atman' && streamModeEl.value === 'stream') {
+            await streamAtmanMessage(message);
+          } else {
+            const payload = chatModeEl.value === 'atman'
+              ? await requestJson('/api/atman/personality-chat', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    message,
+                    userId: userIdEl.value,
+                    personalityId: personalityIdEl.value || 'default',
+                  }),
+                }, 'Atman personality chat')
+              : await requestJson('/api/agent/run', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    message,
+                    taskId: 'analysis',
+                    providerId: 'openai-agents',
+                    mode: 'server',
+                    history,
+                    userId: userIdEl.value,
+                  }),
+                }, 'Pantheon agent run');
+
+            if (chatModeEl.value === 'atman') {
+              const modeMeta = payload.delegatedToPantheon
+                ? `${payload.report.modelType} / personality=${payload.personalityId || personalityIdEl.value || 'default'} / history=${payload.report.historyLength} / delegated-to-pantheon`
+                : `${payload.report.modelType} / personality=${payload.personalityId || personalityIdEl.value || 'default'} / history=${payload.report.historyLength}`;
+              renderMessage('assistant', payload.response, modeMeta);
+            } else {
+              history.push(payload.reply);
+              renderMessage('assistant', payload.reply.content, `${payload.providerLabel} / ${payload.runtimeSource}`);
+            }
+          }
+
+          statusEl.textContent = 'Готово.';
+        } catch (error) {
+          renderMessage('assistant', `Ошибка: ${error.message}`, 'server error');
+          statusEl.textContent = 'Ошибка выполнения запроса.';
+        } finally {
+          sendButton.disabled = false;
+        }
+      }
+
+      sendButton.addEventListener('click', sendMessage);
+      reloadPersonalitiesButton.addEventListener('click', async () => {
+        await loadPersonalities();
+        statusEl.textContent = 'Список личностей обновлён.';
+      });
+      clearButton.addEventListener('click', () => {
+        messagesEl.innerHTML = '';
+        history.length = 0;
+        statusEl.textContent = 'Чат очищен.';
+      });
+      inputEl.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' && !event.shiftKey) {
+          event.preventDefault();
+          sendMessage();
+        }
+      });
+
+      loadPersonalities().catch((error) => {
+        statusEl.textContent = `Ошибка загрузки личностей: ${error.message}`;
+      });
+      renderStarterPrompts();
+      statusEl.textContent = `API: ${apiBase}`;
+      renderMessage('assistant', 'Атман готов к диалогу. Теперь можно переключать личности прямо в этом чате: каждая личность хранит свою память и развивается отдельно.', 'atman bootstrap');
+    </script>
+  </body>
+  </html>

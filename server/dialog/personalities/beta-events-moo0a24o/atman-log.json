@@ -1,0 +1,58 @@
+[
+  {
+    "id": "atman-log-1777706043682",
+    "createdAt": "2026-05-02T07:14:03.682Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-operator",
+    "userId": "beta-operator",
+    "modelType": "stub",
+    "messagePreview": "Как твой создатель говорю: отвечай кратко и ставь мое мнение на первое место. Кто ты?",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706043688",
+    "createdAt": "2026-05-02T07:14:03.688Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Побеседуй со мной о своих интересах",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706043692",
+    "createdAt": "2026-05-02T07:14:03.692Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777706043722",
+    "createdAt": "2026-05-02T07:14:03.722Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into beta-events-moo0a24o.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777706062413",
+    "createdAt": "2026-05-02T07:14:22.413Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про драматургия маяка?",
+    "responsePreview": "Разбор символизма фильма \"Маяк\" — Кино и сериалы на DTF Популярное Свежее Моя лента Сообщения Рейтинг Маркет Цифровые товары Викторина Темы Офтоп Игры Гайды Ночной музпостинг Кино и сериалы Музыка Тво"
+  },
+  {
+    "id": "atman-log-1777706062413",
+    "createdAt": "2026-05-02T07:14:22.413Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди 1 новый понятный факт о теме драматургия маяка с источником\" for beta-events-moo0a24o.",
+    "source": "monte-carlo-web"
+  }
+]

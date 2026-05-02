@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2026-05-02T07:52:58.990Z",
+  "summary": [
+    {
+      "fileName": "beta-admin-2026-05-02T04-23-48-365Z.json",
+      "kind": "pantheon-admin-ui-beta-test",
+      "createdAt": "2026-05-02T04:23:48.910Z",
+      "total": 5,
+      "passed": 3,
+      "failed": 2,
+      "passRate": 0.6,
+      "averageDurationMs": 6077.4
+    },
+    {
+      "fileName": "beta-admin-2026-05-02T04-26-55-462Z.json",
+      "kind": "pantheon-admin-ui-beta-test",
+      "createdAt": "2026-05-02T04:26:56.020Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 85.8
+    },
+    {
+      "fileName": "beta-admin-2026-05-02T07-17-33-890Z.json",
+      "kind": "pantheon-admin-ui-beta-test",
+      "createdAt": "2026-05-02T07:17:34.424Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 75
+    },
+    {
+      "fileName": "beta-admin-2026-05-02T07-52-40-714Z.json",
+      "kind": "pantheon-admin-ui-beta-test",
+      "createdAt": "2026-05-02T07:52:41.251Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 83
+    },
+    {
+      "fileName": "beta-chaos-2026-05-02T04-18-58-702Z.json",
+      "kind": "pantheon-chaos-test",
+      "createdAt": "2026-05-02T04:18:59.274Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": null,
+      "averageDurationMs": null
+    },
+    {
+      "fileName": "beta-chaos-2026-05-02T07-08-29-730Z.json",
+      "kind": "pantheon-chaos-test",
+      "createdAt": "2026-05-02T07:08:30.308Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": null,
+      "averageDurationMs": null
+    },
+    {
+      "fileName": "beta-chaos-2026-05-02T07-52-42-884Z.json",
+      "kind": "pantheon-chaos-test",
+      "createdAt": "2026-05-02T07:52:43.450Z",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "passRate": null,
+      "averageDurationMs": null
+    },
+    {
+      "fileName": "beta-load-2026-05-02T04-18-57-701Z.json",
+      "kind": "pantheon-beta-load-test",
+      "createdAt": "2026-05-02T04:18:58.306Z",
+      "total": 15,
+      "passed": null,
+      "failed": null,
+      "passRate": null,
+      "averageDurationMs": 14.47
+    },
+    {
+      "fileName": "beta-load-2026-05-02T07-52-43-769Z.json",
+      "kind": "pantheon-beta-load-test",
+      "createdAt": "2026-05-02T07:52:44.372Z",
+      "total": 12,
+      "passed": null,
+      "failed": null,
+      "passRate": null,
+      "averageDurationMs": 14.42
+    },
+    {
+      "fileName": "beta-report-index.json",
+      "total": 0,
+      "passed": null,
+      "failed": null,
+      "passRate": null,
+      "averageDurationMs": null
+    },
+    {
+      "fileName": "beta-soak-2026-05-02T04-24-21-474Z.json",
+      "kind": "pantheon-beta-soak-test",
+      "createdAt": "2026-05-02T04:24:22.024Z",
+      "total": 3,
+      "passed": null,
+      "failed": null,
+      "passRate": null,
+      "averageDurationMs": 2179.75
+    },
+    {
+      "fileName": "beta-soak-2026-05-02T04-26-58-236Z.json",
+      "kind": "pantheon-beta-soak-test",
+      "createdAt": "2026-05-02T04:26:58.784Z",
+      "total": 3,
+      "passed": null,
+      "failed": null,
+      "passRate": null,
+      "averageDurationMs": 1802
+    },
+    {
+      "fileName": "beta-test-2026-05-02T04-18-32-544Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T04:18:33.093Z",
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 1846.77
+    },
+    {
+      "fileName": "beta-test-2026-05-02T05-34-09-182Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T05:34:09.722Z",
+      "total": 14,
+      "passed": 14,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 2662.86
+    },
+    {
+      "fileName": "beta-test-2026-05-02T05-42-17-546Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T05:42:18.119Z",
+      "total": 16,
+      "passed": 15,
+      "failed": 1,
+      "passRate": 0.94,
+      "averageDurationMs": 2021.69
+    },
+    {
+      "fileName": "beta-test-2026-05-02T05-43-15-128Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T05:43:15.684Z",
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 2589.25
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-05-48-828Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:05:49.383Z",
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 2530.75
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-15-09-701Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:15:10.260Z",
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3164.53
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-35-07-676Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:35:08.247Z",
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3667.41
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-37-29-364Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:37:29.926Z",
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3510.11
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-43-35-016Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:43:35.590Z",
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3298.72
+    },
+    {
+      "fileName": "beta-test-2026-05-02T06-45-47-368Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T06:45:47.930Z",
+      "total": 19,
+      "passed": 19,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3630.42
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-02-04-378Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:02:04.954Z",
+      "total": 20,
+      "passed": 19,
+      "failed": 1,
+      "passRate": 0.95,
+      "averageDurationMs": 3870.45
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-03-38-534Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:03:39.074Z",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3845.95
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-12-03-591Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:12:04.142Z",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 4121.65
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-14-03-087Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:14:03.651Z",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 4913.15
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-25-02-208Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:25:02.794Z",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 4576.1
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-28-39-932Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:28:40.479Z",
+      "total": 21,
+      "passed": 20,
+      "failed": 1,
+      "passRate": 0.95,
+      "averageDurationMs": 3850
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-30-33-464Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:30:34.029Z",
+      "total": 21,
+      "passed": 20,
+      "failed": 1,
+      "passRate": 0.95,
+      "averageDurationMs": 3434.62
+    },
+    {
+      "fileName": "beta-test-2026-05-02T07-37-03-467Z.json",
+      "kind": "pantheon-beta-test",
+      "createdAt": "2026-05-02T07:37:04.043Z",
+      "total": 21,
+      "passed": 21,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 3659.33
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T06-52-48-900Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T06:52:49.450Z",
+      "total": 6,
+      "passed": 5,
+      "failed": 1,
+      "passRate": 0.83,
+      "averageDurationMs": 16295.5
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T06-54-55-319Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T06:54:55.874Z",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 14252
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-05-16-266Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:05:16.826Z",
+      "total": 6,
+      "passed": 5,
+      "failed": 1,
+      "passRate": 0.83,
+      "averageDurationMs": 10703.33
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-06-47-815Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:06:48.365Z",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 15136
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-15-50-539Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:15:51.103Z",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 17016.17
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-38-25-918Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:38:26.486Z",
+      "total": 9,
+      "passed": 8,
+      "failed": 1,
+      "passRate": 0.89,
+      "averageDurationMs": 10781.44
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-41-18-108Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:41:18.675Z",
+      "total": 9,
+      "passed": 6,
+      "failed": 3,
+      "passRate": 0.67,
+      "averageDurationMs": 11082.78
+    },
+    {
+      "fileName": "personality-scenarios-2026-05-02T07-45-07-866Z.json",
+      "kind": "pantheon-personality-scenarios",
+      "createdAt": "2026-05-02T07:45:08.423Z",
+      "total": 9,
+      "passed": 9,
+      "failed": 0,
+      "passRate": 1,
+      "averageDurationMs": 12118.33
+    }
+  ]
+}

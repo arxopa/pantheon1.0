@@ -1,0 +1,263 @@
+{
+  "currentFocus": "space",
+  "explorationCount": 67,
+  "conversationCount": 83,
+  "rngState": 311013585,
+  "lastRoll": 0.3585,
+  "lastDelta": 0.3,
+  "lastTopicId": "space",
+  "topics": [
+    {
+      "discoveries": [
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:20:18.030Z"
+        },
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:27:18.363Z"
+        },
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:34:17.864Z"
+        },
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:41:18.742Z"
+        },
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:48:17.918Z"
+        },
+        {
+          "text": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "title": "Космос для детей 10 фактов о космосе которые надо рассказать детям",
+          "url": "https://u-mama.ru/articles/kids/kids-development/10357-kosmos-dlya-detey-10-faktov-o-kosmose-kotorye-nado-rasskazat-detyam",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T07:55:18.136Z"
+        }
+      ],
+      "id": "space",
+      "title": "космос",
+      "keywords": [
+        "космос",
+        "планет",
+        "звезд",
+        "луна",
+        "солнц",
+        "галактик"
+      ],
+      "related": [
+        "ocean",
+        "robots"
+      ],
+      "progress": 1,
+      "curiosity": 1,
+      "lastExploredAt": "2026-05-02T07:55:18.136Z"
+    },
+    {
+      "discoveries": [
+        {
+          "text": "Я снова подумал о теме \"животные\" и заметил что-то новое.",
+          "title": null,
+          "url": null,
+          "source": "memory",
+          "createdAt": null
+        },
+        {
+          "text": "Я снова подумал о теме \"животные\" и заметил что-то новое.",
+          "title": null,
+          "url": null,
+          "source": "memory",
+          "createdAt": null
+        }
+      ],
+      "id": "animals",
+      "title": "животные",
+      "keywords": [
+        "животн",
+        "кошк",
+        "собак",
+        "тигр",
+        "птиц",
+        "динозавр"
+      ],
+      "related": [
+        "ocean",
+        "friendship"
+      ],
+      "progress": 0.68,
+      "curiosity": 0.67,
+      "lastExploredAt": "2026-05-02T01:38:19.423Z"
+    },
+    {
+      "discoveries": [
+        {
+          "text": "ЧТО такое робот? Робототехника для начинающих и детей",
+          "title": "ЧТО такое робот? Робототехника для начинающих и детей",
+          "url": "https://rutube.ru/video/7456acb9ed2f81392878a5f8053b1d18/",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T01:43:20.808Z"
+        },
+        {
+          "text": "Я снова подумал о теме \"роботы\" и заметил что-то новое.",
+          "title": null,
+          "url": null,
+          "source": "memory",
+          "createdAt": "2026-05-02T01:43:20.834Z"
+        }
+      ],
+      "id": "robots",
+      "title": "роботы",
+      "keywords": [
+        "робот",
+        "машин",
+        "техник",
+        "компьют",
+        "программ"
+      ],
+      "related": [
+        "space",
+        "music"
+      ],
+      "progress": 0.71,
+      "curiosity": 1,
+      "lastExploredAt": "2026-05-02T01:43:20.834Z"
+    },
+    {
+      "discoveries": [
+        {
+          "text": "Я снова подумал о теме \"океан\" и заметил что-то новое.",
+          "title": null,
+          "url": null,
+          "source": "memory",
+          "createdAt": null
+        },
+        {
+          "text": "Я снова подумал о теме \"океан\" и заметил что-то новое.",
+          "title": null,
+          "url": null,
+          "source": "memory",
+          "createdAt": null
+        },
+        {
+          "text": "��� ������ ��� ������� ���������� 2-4 ������.",
+          "title": "Про океаны для младших школьников 2-4 класса. Окружающий мир",
+          "url": "https://ped-kopilka.ru/nachalnaja-shkola/didakticheskie-materialy/pro-okeany-dlja-mladshih-shkolnikov-2-4-klasa-okruzhayuschii-mir.html",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T01:47:53.129Z"
+        },
+        {
+          "text": "http://localhost:8807/api/learning/state",
+          "title": "http://localhost:8807/api/learning/state",
+          "url": "http://localhost:8807/api/learning/state",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T01:50:06.846Z"
+        },
+        {
+          "text": "Перейти к содержанию Search for: Школа Математика для детей Русский язык для детей Английский язык Биология для детей География для детей Искусство для детей История для детей Астрономия Поделки Загадки Карточки Домана О",
+          "title": "Мировой океан - простыми словами для детей",
+          "url": "https://skvorushka.ru/mirovoy-okean/",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T01:50:29.771Z"
+        },
+        {
+          "text": "��� ������ ��� ������� ���������� 2-4 ������.",
+          "title": "Про океаны для младших школьников 2-4 класса. Окружающий мир",
+          "url": "https://ped-kopilka.ru/nachalnaja-shkola/didakticheskie-materialy/pro-okeany-dlja-mladshih-shkolnikov-2-4-klasa-okruzhayuschii-mir.html",
+          "source": "web-scout",
+          "createdAt": "2026-05-02T01:56:44.427Z"
+        }
+      ],
+      "id": "ocean",
+      "title": "океан",
+      "keywords": [
+        "океан",
+        "море",
+        "рыб",
+        "дельфин",
+        "коралл",
+        "вода"
+      ],
+      "related": [
+        "animals",
+        "space"
+      ],
+      "progress": 1,
+      "curiosity": 0.97,
+      "lastExploredAt": "2026-05-02T01:56:44.427Z"
+    },
+    {
+      "discoveries": [],
+      "id": "music",
+      "title": "музыка",
+      "keywords": [
+        "музык",
+        "песн",
+        "звук",
+        "ритм",
+        "мелод"
+      ],
+      "related": [
+        "friendship",
+        "robots"
+      ],
+      "progress": 0.24,
+      "curiosity": 0.68,
+      "lastExploredAt": null
+    },
+    {
+      "discoveries": [],
+      "id": "friendship",
+      "title": "дружба",
+      "keywords": [
+        "дружб",
+        "друг",
+        "доброт",
+        "чувств",
+        "игр"
+      ],
+      "related": [
+        "music",
+        "animals"
+      ],
+      "progress": 0.27,
+      "curiosity": 0.68,
+      "lastExploredAt": null
+    },
+    {
+      "discoveries": [],
+      "id": "shiva",
+      "title": "Шива",
+      "keywords": [
+        "шива",
+        "пантеон",
+        "правил",
+        "бог",
+        "миф"
+      ],
+      "related": [
+        "space",
+        "friendship"
+      ],
+      "progress": 0.3,
+      "curiosity": 0.72,
+      "lastExploredAt": null
+    }
+  ]
+}

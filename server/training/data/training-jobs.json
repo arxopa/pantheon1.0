@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-02T04:45:17.291Z",
+  "paths": {
+    "registryPath": "/Users/ogr/Dots/ui/Dots2/server/training/data/training-jobs.json",
+    "rawRoot": "/Users/ogr/Dots/ui/Dots2/data/raw",
+    "curatedRoot": "/Users/ogr/Dots/ui/Dots2/data/curated",
+    "datasetRoot": "/Users/ogr/Dots/ui/Dots2/data/datasets",
+    "exportRoot": "/Users/ogr/Dots/ui/Dots2/data/exports"
+  },
+  "activeArtifacts": {
+    "default": {
+      "jobId": "training-default-2026-05-02t04-37-00-289z",
+      "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-37-00-289z-adapter.json",
+      "activatedAt": "2026-05-02T04:37:00.319Z",
+      "activatedBy": "runtime-validation",
+      "datasetVersion": "dataset-2026-05-02T04-37-00-286Z"
+    }
+  },
+  "jobs": [
+    {
+      "id": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "personalityDisplayName": "Atman",
+      "datasetVersion": "dataset-2026-05-02T04-36-44-888Z",
+      "status": "active",
+      "createdAt": "2026-05-02T04:36:44.889Z",
+      "updatedAt": "2026-05-02T04:36:45.381Z",
+      "paths": {
+        "rawFilePath": "/Users/ogr/Dots/ui/Dots2/data/raw/default/dataset-2026-05-02T04-36-44-888Z.jsonl",
+        "curatedFilePath": "/Users/ogr/Dots/ui/Dots2/data/curated/default/dataset-2026-05-02T04-36-44-888Z.jsonl",
+        "datasetFilePath": "/Users/ogr/Dots/ui/Dots2/data/datasets/default/dataset-2026-05-02T04-36-44-888Z.jsonl"
+      },
+      "dataset": {
+        "totalRecords": 1,
+        "curatedRecords": 1,
+        "rejectedRecords": 0,
+        "averageCurationScore": 0.642
+      },
+      "model": {
+        "baseModelRef": "pantheon-base-stub",
+        "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-36-44-889z-adapter.json"
+      },
+      "approval": {
+        "status": "approved",
+        "approvedAt": "2026-05-02T04:36:45.380Z",
+        "approvedBy": "Control Core / Shiva manual channel",
+        "rejectedAt": null,
+        "rejectedBy": null,
+        "reason": "CLI approval before activation."
+      },
+      "evaluation": {
+        "status": "completed",
+        "recommended": true,
+        "completedAt": "2026-05-02T04:36:45.216Z",
+        "summary": "Dataset curation and stub adapter evaluation passed the minimum gate.",
+        "checks": {
+          "curatedRecords": 1,
+          "averageCurationScore": 0.642,
+          "adapterRegistered": true
+        }
+      },
+      "activation": {
+        "status": "active",
+        "activatedAt": "2026-05-02T04:36:45.381Z",
+        "activatedBy": "Control Core / Shiva manual channel"
+      },
+      "worker": {
+        "mode": "offline-registry-stub",
+        "state": "completed",
+        "startedAt": "2026-05-02T04:36:45.064Z",
+        "completedAt": "2026-05-02T04:36:45.064Z"
+      },
+      "operatorNote": null
+    },
+    {
+      "id": "training-default-2026-05-02t04-37-00-289z",
+      "personalityId": "default",
+      "personalityDisplayName": "Atman",
+      "datasetVersion": "dataset-2026-05-02T04-37-00-286Z",
+      "status": "active",
+      "createdAt": "2026-05-02T04:37:00.289Z",
+      "updatedAt": "2026-05-02T04:37:00.319Z",
+      "paths": {
+        "rawFilePath": "/Users/ogr/Dots/ui/Dots2/data/raw/default/dataset-2026-05-02T04-37-00-286Z.jsonl",
+        "curatedFilePath": "/Users/ogr/Dots/ui/Dots2/data/curated/default/dataset-2026-05-02T04-37-00-286Z.jsonl",
+        "datasetFilePath": "/Users/ogr/Dots/ui/Dots2/data/datasets/default/dataset-2026-05-02T04-37-00-286Z.jsonl"
+      },
+      "dataset": {
+        "totalRecords": 1,
+        "curatedRecords": 1,
+        "rejectedRecords": 0,
+        "averageCurationScore": 0.642
+      },
+      "model": {
+        "baseModelRef": "pantheon-base-stub",
+        "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-37-00-289z-adapter.json"
+      },
+      "approval": {
+        "status": "approved",
+        "approvedAt": "2026-05-02T04:37:00.316Z",
+        "approvedBy": "runtime-validation",
+        "rejectedAt": null,
+        "rejectedBy": null,
+        "reason": "Approved for controlled activation."
+      },
+      "evaluation": {
+        "status": "pending",
+        "recommended": true,
+        "summary": "Offline adapter artifact registered and awaiting evaluation."
+      },
+      "activation": {
+        "status": "active",
+        "activatedAt": "2026-05-02T04:37:00.319Z",
+        "activatedBy": "runtime-validation"
+      },
+      "worker": {
+        "mode": "offline-registry-stub",
+        "state": "completed",
+        "startedAt": "2026-05-02T04:37:00.305Z",
+        "completedAt": "2026-05-02T04:37:00.308Z"
+      },
+      "operatorNote": "runtime validation"
+    },
+    {
+      "id": "training-default-2026-05-02t04-45-16-945z",
+      "personalityId": "default",
+      "personalityDisplayName": "Atman",
+      "datasetVersion": "dataset-2026-05-02T04-45-16-944Z",
+      "status": "evaluated",
+      "createdAt": "2026-05-02T04:45:16.945Z",
+      "updatedAt": "2026-05-02T04:45:17.290Z",
+      "paths": {
+        "rawFilePath": "/Users/ogr/Dots/ui/Dots2/data/raw/default/dataset-2026-05-02T04-45-16-944Z.jsonl",
+        "curatedFilePath": "/Users/ogr/Dots/ui/Dots2/data/curated/default/dataset-2026-05-02T04-45-16-944Z.jsonl",
+        "datasetFilePath": "/Users/ogr/Dots/ui/Dots2/data/datasets/default/dataset-2026-05-02T04-45-16-944Z.jsonl"
+      },
+      "dataset": {
+        "totalRecords": 1,
+        "curatedRecords": 1,
+        "rejectedRecords": 0,
+        "averageCurationScore": 0.642
+      },
+      "model": {
+        "baseModelRef": "pantheon-base-stub",
+        "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-45-16-945z-adapter.json"
+      },
+      "approval": {
+        "status": "pending",
+        "approvedAt": null,
+        "approvedBy": null,
+        "rejectedAt": null,
+        "rejectedBy": null,
+        "reason": null
+      },
+      "evaluation": {
+        "status": "completed",
+        "recommended": true,
+        "completedAt": "2026-05-02T04:45:17.290Z",
+        "reviewedBy": "manual-debug",
+        "summary": "Manual beta gate recorded",
+        "checks": {
+          "curatedRecords": 1,
+          "averageCurationScore": 0.642,
+          "adapterRegistered": true,
+          "beta:test": {
+            "passed": true
+          },
+          "beta:admin": {
+            "passed": true
+          },
+          "beta:chaos": {
+            "passed": true
+          }
+        }
+      },
+      "activation": {
+        "status": "inactive",
+        "activatedAt": null,
+        "activatedBy": null
+      },
+      "worker": {
+        "mode": "offline-registry-stub",
+        "state": "completed",
+        "startedAt": "2026-05-02T04:45:17.124Z",
+        "completedAt": "2026-05-02T04:45:17.124Z"
+      },
+      "operatorNote": null
+    }
+  ],
+  "logs": [
+    {
+      "id": "training-log-1777696604889",
+      "timestamp": "2026-05-02T04:36:44.889Z",
+      "type": "training.prepare",
+      "jobId": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "datasetVersion": "dataset-2026-05-02T04-36-44-888Z",
+      "curatedRecords": 1
+    },
+    {
+      "id": "training-log-1777696605065",
+      "timestamp": "2026-05-02T04:36:45.065Z",
+      "type": "training.start",
+      "jobId": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-36-44-889z-adapter.json"
+    },
+    {
+      "id": "training-log-1777696605216",
+      "timestamp": "2026-05-02T04:36:45.216Z",
+      "type": "training.evaluate",
+      "jobId": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "recommended": true
+    },
+    {
+      "id": "training-log-1777696605381",
+      "timestamp": "2026-05-02T04:36:45.381Z",
+      "type": "training.approve",
+      "jobId": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "approvedBy": "Control Core / Shiva manual channel"
+    },
+    {
+      "id": "training-log-1777696605382",
+      "timestamp": "2026-05-02T04:36:45.382Z",
+      "type": "training.activate",
+      "jobId": "training-default-2026-05-02t04-36-44-889z",
+      "personalityId": "default",
+      "activatedBy": "Control Core / Shiva manual channel"
+    },
+    {
+      "id": "training-log-1777696620290",
+      "timestamp": "2026-05-02T04:37:00.290Z",
+      "type": "training.prepare",
+      "jobId": "training-default-2026-05-02t04-37-00-289z",
+      "personalityId": "default",
+      "datasetVersion": "dataset-2026-05-02T04-37-00-286Z",
+      "curatedRecords": 1
+    },
+    {
+      "id": "training-log-1777696620308",
+      "timestamp": "2026-05-02T04:37:00.308Z",
+      "type": "training.start",
+      "jobId": "training-default-2026-05-02t04-37-00-289z",
+      "personalityId": "default",
+      "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-37-00-289z-adapter.json"
+    },
+    {
+      "id": "training-log-1777696620316",
+      "timestamp": "2026-05-02T04:37:00.316Z",
+      "type": "training.approve",
+      "jobId": "training-default-2026-05-02t04-37-00-289z",
+      "personalityId": "default",
+      "approvedBy": "runtime-validation"
+    },
+    {
+      "id": "training-log-1777696620319",
+      "timestamp": "2026-05-02T04:37:00.319Z",
+      "type": "training.activate",
+      "jobId": "training-default-2026-05-02t04-37-00-289z",
+      "personalityId": "default",
+      "activatedBy": "runtime-validation"
+    },
+    {
+      "id": "training-log-1777697116946",
+      "timestamp": "2026-05-02T04:45:16.946Z",
+      "type": "training.prepare",
+      "jobId": "training-default-2026-05-02t04-45-16-945z",
+      "personalityId": "default",
+      "datasetVersion": "dataset-2026-05-02T04-45-16-944Z",
+      "curatedRecords": 1
+    },
+    {
+      "id": "training-log-1777697117125",
+      "timestamp": "2026-05-02T04:45:17.125Z",
+      "type": "training.start",
+      "jobId": "training-default-2026-05-02t04-45-16-945z",
+      "personalityId": "default",
+      "adapterArtifactPath": "/Users/ogr/Dots/ui/Dots2/data/exports/default/training-default-2026-05-02t04-45-16-945z-adapter.json"
+    },
+    {
+      "id": "training-log-1777697117291",
+      "timestamp": "2026-05-02T04:45:17.291Z",
+      "type": "training.evaluate",
+      "jobId": "training-default-2026-05-02t04-45-16-945z",
+      "personalityId": "default",
+      "recommended": true
+    }
+  ]
+}

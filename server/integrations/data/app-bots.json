@@ -1,0 +1,126 @@
+{
+  "bots": [
+    {
+      "id": "lichess-validation-1777693371752",
+      "displayName": "Validation Lichess Bot",
+      "appId": "lichess.com",
+      "siteUrl": "https://lichess.org",
+      "category": "game",
+      "description": "Шахматный бот-наставник для разборов, тренировок и supervised playbook.",
+      "personalityId": "default",
+      "supervisorPersonalityId": "default",
+      "createdAt": "2026-05-02T03:42:51.793Z",
+      "updatedAt": "2026-05-02T03:42:51.799Z",
+      "training": {
+        "enabled": true,
+        "userGuidance": "Учись только на шагах пользователя и не делай резких ходов без подтверждения.",
+        "atmanSupervision": "Атман следит за безопасностью, качеством стратегии и темпом обучения.",
+        "lessons": [
+          {
+            "id": "app-bot-lesson-1777693371795",
+            "createdAt": "2026-05-02T03:42:51.795Z",
+            "userGuidance": "Сначала анализируй позицию, потом предлагай 2 безопасных плана.",
+            "atmanAssessment": "Атман подтверждает осторожный режим обучения.",
+            "nextAction": "Разобрать один дебют без автоматического хода."
+          }
+        ],
+        "lastLessonAt": "2026-05-02T03:42:51.795Z"
+      },
+      "runtime": {
+        "status": "idle",
+        "lastStartedAt": "2026-05-02T03:42:51.797Z",
+        "lastStoppedAt": "2026-05-02T03:42:51.799Z",
+        "lastSessionUserId": "app-bot:lichess-validation-1777693371752",
+        "lastReason": "validation-complete"
+      }
+    }
+  ],
+  "logs": [
+    {
+      "id": "app-bot-log-1777693371793",
+      "createdAt": "2026-05-02T03:42:51.793Z",
+      "kind": "create",
+      "botId": "lichess-validation-1777693371752",
+      "summary": "App bot Validation Lichess Bot created for lichess.com."
+    },
+    {
+      "id": "app-bot-log-1777693371795",
+      "createdAt": "2026-05-02T03:42:51.795Z",
+      "kind": "training",
+      "botId": "lichess-validation-1777693371752",
+      "summary": "Training note added to Validation Lichess Bot.",
+      "lesson": {
+        "id": "app-bot-lesson-1777693371795",
+        "createdAt": "2026-05-02T03:42:51.795Z",
+        "userGuidance": "Сначала анализируй позицию, потом предлагай 2 безопасных плана.",
+        "atmanAssessment": "Атман подтверждает осторожный режим обучения.",
+        "nextAction": "Разобрать один дебют без автоматического хода."
+      }
+    },
+    {
+      "id": "app-bot-log-1777693371797",
+      "createdAt": "2026-05-02T03:42:51.797Z",
+      "kind": "start",
+      "botId": "lichess-validation-1777693371752",
+      "summary": "App bot Validation Lichess Bot started.",
+      "bridgeResult": {
+        "active": true,
+        "transportMode": "app-bot",
+        "webhookConfigured": false,
+        "oauthReady": true,
+        "oauthScopes": [
+          "https://www.googleapis.com/auth/chat.spaces.create",
+          "https://www.googleapis.com/auth/chat.messages",
+          "https://www.googleapis.com/auth/chat.messages.create"
+        ],
+        "oauth": {
+          "accountEmail": "creator@example.com",
+          "clientId": "client-id-demo",
+          "spaceName": "spaces/demo-space",
+          "hasRefreshToken": true
+        },
+        "sessionUserId": "app-bot:lichess-validation-1777693371752",
+        "personalityId": "default",
+        "isolatedChannelLabel": "app-bot:lichess.com",
+        "observerEnabled": true,
+        "logCount": 1,
+        "queueDepth": 1,
+        "emergencyStopAvailable": true,
+        "initialMessage": "Я запускаю бота Validation Lichess Bot для lichess.com. Пользователь учит меня шагам, а Атман default следит за качеством обучения.",
+        "delivery": null
+      }
+    },
+    {
+      "id": "app-bot-log-1777693371799",
+      "createdAt": "2026-05-02T03:42:51.799Z",
+      "kind": "stop",
+      "botId": "lichess-validation-1777693371752",
+      "summary": "App bot Validation Lichess Bot stopped.",
+      "bridgeResult": {
+        "active": false,
+        "transportMode": "app-bot",
+        "webhookConfigured": false,
+        "oauthReady": true,
+        "oauthScopes": [
+          "https://www.googleapis.com/auth/chat.spaces.create",
+          "https://www.googleapis.com/auth/chat.messages",
+          "https://www.googleapis.com/auth/chat.messages.create"
+        ],
+        "oauth": {
+          "accountEmail": "creator@example.com",
+          "clientId": "client-id-demo",
+          "spaceName": "spaces/demo-space",
+          "hasRefreshToken": true
+        },
+        "sessionUserId": "app-bot:lichess-validation-1777693371752",
+        "personalityId": "default",
+        "isolatedChannelLabel": "app-bot:lichess.com",
+        "observerEnabled": true,
+        "logCount": 2,
+        "queueDepth": 1,
+        "emergencyStopAvailable": true,
+        "reason": "app-bot-stop:lichess-validation-1777693371752"
+      }
+    }
+  ]
+}

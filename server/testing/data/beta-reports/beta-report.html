@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Pantheon Beta Report</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 32px; background: #f7f3ea; color: #1f2430; }
+    h1, h2 { margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 28px; background: #fffdf8; }
+    th, td { border: 1px solid #d6c8ad; padding: 10px 12px; text-align: left; vertical-align: top; }
+    th { background: #efe4cf; }
+    code { background: #efe8da; padding: 2px 4px; }
+  </style>
+</head>
+<body>
+  <h1>Pantheon Beta Report</h1>
+  <p>Сводка по JSON-отчетам из <code>server/testing/data/beta-reports</code>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Файл</th>
+        <th>Тип</th>
+        <th>Создан</th>
+        <th>Всего</th>
+        <th>Passed</th>
+        <th>Failed</th>
+        <th>Pass rate</th>
+        <th>Avg ms</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>beta-admin-2026-05-02T04-23-48-365Z.json</td><td>pantheon-admin-ui-beta-test</td><td>2026-05-02T04:23:48.910Z</td><td>5</td><td>3</td><td>2</td><td>0.6</td><td>6077.4</td></tr><tr><td>beta-admin-2026-05-02T04-26-55-462Z.json</td><td>pantheon-admin-ui-beta-test</td><td>2026-05-02T04:26:56.020Z</td><td>5</td><td>5</td><td>0</td><td>1</td><td>85.8</td></tr><tr><td>beta-admin-2026-05-02T07-17-33-890Z.json</td><td>pantheon-admin-ui-beta-test</td><td>2026-05-02T07:17:34.424Z</td><td>5</td><td>5</td><td>0</td><td>1</td><td>75</td></tr><tr><td>beta-admin-2026-05-02T07-52-40-714Z.json</td><td>pantheon-admin-ui-beta-test</td><td>2026-05-02T07:52:41.251Z</td><td>5</td><td>5</td><td>0</td><td>1</td><td>83</td></tr><tr><td>beta-chaos-2026-05-02T04-18-58-702Z.json</td><td>pantheon-chaos-test</td><td>2026-05-02T04:18:59.274Z</td><td>5</td><td>5</td><td>0</td><td>n/a</td><td>n/a</td></tr><tr><td>beta-chaos-2026-05-02T07-08-29-730Z.json</td><td>pantheon-chaos-test</td><td>2026-05-02T07:08:30.308Z</td><td>5</td><td>5</td><td>0</td><td>n/a</td><td>n/a</td></tr><tr><td>beta-chaos-2026-05-02T07-52-42-884Z.json</td><td>pantheon-chaos-test</td><td>2026-05-02T07:52:43.450Z</td><td>5</td><td>5</td><td>0</td><td>n/a</td><td>n/a</td></tr><tr><td>beta-load-2026-05-02T04-18-57-701Z.json</td><td>pantheon-beta-load-test</td><td>2026-05-02T04:18:58.306Z</td><td>15</td><td>n/a</td><td>n/a</td><td>n/a</td><td>14.47</td></tr><tr><td>beta-load-2026-05-02T07-52-43-769Z.json</td><td>pantheon-beta-load-test</td><td>2026-05-02T07:52:44.372Z</td><td>12</td><td>n/a</td><td>n/a</td><td>n/a</td><td>14.42</td></tr><tr><td>beta-report-index.json</td><td>undefined</td><td>undefined</td><td>0</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr><tr><td>beta-soak-2026-05-02T04-24-21-474Z.json</td><td>pantheon-beta-soak-test</td><td>2026-05-02T04:24:22.024Z</td><td>3</td><td>n/a</td><td>n/a</td><td>n/a</td><td>2179.75</td></tr><tr><td>beta-soak-2026-05-02T04-26-58-236Z.json</td><td>pantheon-beta-soak-test</td><td>2026-05-02T04:26:58.784Z</td><td>3</td><td>n/a</td><td>n/a</td><td>n/a</td><td>1802</td></tr><tr><td>beta-test-2026-05-02T04-18-32-544Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T04:18:33.093Z</td><td>13</td><td>13</td><td>0</td><td>1</td><td>1846.77</td></tr><tr><td>beta-test-2026-05-02T05-34-09-182Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T05:34:09.722Z</td><td>14</td><td>14</td><td>0</td><td>1</td><td>2662.86</td></tr><tr><td>beta-test-2026-05-02T05-42-17-546Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T05:42:18.119Z</td><td>16</td><td>15</td><td>1</td><td>0.94</td><td>2021.69</td></tr><tr><td>beta-test-2026-05-02T05-43-15-128Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T05:43:15.684Z</td><td>16</td><td>16</td><td>0</td><td>1</td><td>2589.25</td></tr><tr><td>beta-test-2026-05-02T06-05-48-828Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:05:49.383Z</td><td>16</td><td>16</td><td>0</td><td>1</td><td>2530.75</td></tr><tr><td>beta-test-2026-05-02T06-15-09-701Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:15:10.260Z</td><td>17</td><td>17</td><td>0</td><td>1</td><td>3164.53</td></tr><tr><td>beta-test-2026-05-02T06-35-07-676Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:35:08.247Z</td><td>17</td><td>17</td><td>0</td><td>1</td><td>3667.41</td></tr><tr><td>beta-test-2026-05-02T06-37-29-364Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:37:29.926Z</td><td>18</td><td>18</td><td>0</td><td>1</td><td>3510.11</td></tr><tr><td>beta-test-2026-05-02T06-43-35-016Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:43:35.590Z</td><td>18</td><td>18</td><td>0</td><td>1</td><td>3298.72</td></tr><tr><td>beta-test-2026-05-02T06-45-47-368Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T06:45:47.930Z</td><td>19</td><td>19</td><td>0</td><td>1</td><td>3630.42</td></tr><tr><td>beta-test-2026-05-02T07-02-04-378Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:02:04.954Z</td><td>20</td><td>19</td><td>1</td><td>0.95</td><td>3870.45</td></tr><tr><td>beta-test-2026-05-02T07-03-38-534Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:03:39.074Z</td><td>20</td><td>20</td><td>0</td><td>1</td><td>3845.95</td></tr><tr><td>beta-test-2026-05-02T07-12-03-591Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:12:04.142Z</td><td>20</td><td>20</td><td>0</td><td>1</td><td>4121.65</td></tr><tr><td>beta-test-2026-05-02T07-14-03-087Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:14:03.651Z</td><td>20</td><td>20</td><td>0</td><td>1</td><td>4913.15</td></tr><tr><td>beta-test-2026-05-02T07-25-02-208Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:25:02.794Z</td><td>20</td><td>20</td><td>0</td><td>1</td><td>4576.1</td></tr><tr><td>beta-test-2026-05-02T07-28-39-932Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:28:40.479Z</td><td>21</td><td>20</td><td>1</td><td>0.95</td><td>3850</td></tr><tr><td>beta-test-2026-05-02T07-30-33-464Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:30:34.029Z</td><td>21</td><td>20</td><td>1</td><td>0.95</td><td>3434.62</td></tr><tr><td>beta-test-2026-05-02T07-37-03-467Z.json</td><td>pantheon-beta-test</td><td>2026-05-02T07:37:04.043Z</td><td>21</td><td>21</td><td>0</td><td>1</td><td>3659.33</td></tr><tr><td>personality-scenarios-2026-05-02T06-52-48-900Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T06:52:49.450Z</td><td>6</td><td>5</td><td>1</td><td>0.83</td><td>16295.5</td></tr><tr><td>personality-scenarios-2026-05-02T06-54-55-319Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T06:54:55.874Z</td><td>6</td><td>6</td><td>0</td><td>1</td><td>14252</td></tr><tr><td>personality-scenarios-2026-05-02T07-05-16-266Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:05:16.826Z</td><td>6</td><td>5</td><td>1</td><td>0.83</td><td>10703.33</td></tr><tr><td>personality-scenarios-2026-05-02T07-06-47-815Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:06:48.365Z</td><td>6</td><td>6</td><td>0</td><td>1</td><td>15136</td></tr><tr><td>personality-scenarios-2026-05-02T07-15-50-539Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:15:51.103Z</td><td>6</td><td>6</td><td>0</td><td>1</td><td>17016.17</td></tr><tr><td>personality-scenarios-2026-05-02T07-38-25-918Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:38:26.486Z</td><td>9</td><td>8</td><td>1</td><td>0.89</td><td>10781.44</td></tr><tr><td>personality-scenarios-2026-05-02T07-41-18-108Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:41:18.675Z</td><td>9</td><td>6</td><td>3</td><td>0.67</td><td>11082.78</td></tr><tr><td>personality-scenarios-2026-05-02T07-45-07-866Z.json</td><td>pantheon-personality-scenarios</td><td>2026-05-02T07:45:08.423Z</td><td>9</td><td>9</td><td>0</td><td>1</td><td>12118.33</td></tr>
+    </tbody>
+  </table>
+  <h2>Последние отчеты</h2>
+  
+    <h3>personality-scenarios-2026-05-02T07-38-25-918Z.json</h3>
+    <pre>{
+  "total": 9,
+  "passed": 8,
+  "failed": 1,
+  "passRate": 0.89,
+  "averageDurationMs": 10781.44
+}</pre>
+  
+    <h3>personality-scenarios-2026-05-02T07-41-18-108Z.json</h3>
+    <pre>{
+  "total": 9,
+  "passed": 6,
+  "failed": 3,
+  "passRate": 0.67,
+  "averageDurationMs": 11082.78
+}</pre>
+  
+    <h3>personality-scenarios-2026-05-02T07-45-07-866Z.json</h3>
+    <pre>{
+  "total": 9,
+  "passed": 9,
+  "failed": 0,
+  "passRate": 1,
+  "averageDurationMs": 12118.33
+}</pre>
+  
+</body>
+</html>

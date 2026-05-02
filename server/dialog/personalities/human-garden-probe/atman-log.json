@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777691045276",
+    "createdAt": "2026-05-02T03:04:05.276Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into human-garden-probe.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777691058787",
+    "createdAt": "2026-05-02T03:04:18.787Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про океан?",
+    "responsePreview": "Мировой океан - простыми словами для детей Перейти к содержанию Search for: Школа Математика для детей Русский язык для детей Английский язык Биология для детей География для детей Искусство для детей"
+  },
+  {
+    "id": "atman-log-1777691058788",
+    "createdAt": "2026-05-02T03:04:18.788Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы океан для маленького ребенка\" for human-garden-probe.",
+    "source": "monte-carlo-web"
+  }
+]

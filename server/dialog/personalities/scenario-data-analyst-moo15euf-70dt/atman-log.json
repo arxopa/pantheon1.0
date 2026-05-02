@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777707506538",
+    "createdAt": "2026-05-02T07:38:26.538Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-data-analyst-moo15euf-70dt.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777707567812",
+    "createdAt": "2026-05-02T07:39:27.812Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про простое объяснение трендов в таблице продаж: цена, площадь и район?",
+    "responsePreview": "Популярные запросы – Google Trends Trends Trends Главная страница Главная страница Обзор Обзор Популярные запросы Популярные запросы maps Войти Trends Trends home Главная страница query_stats Обзор tr"
+  },
+  {
+    "id": "atman-log-1777707567813",
+    "createdAt": "2026-05-02T07:39:27.813Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы простое объяснение трендов в таблице продаж: цена, площадь и район для маленького ребенка\" for scenario-data-analyst-moo15euf-70dt.",
+    "source": "monte-carlo-web"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "id": "atman-log-1777692352313",
+    "createdAt": "2026-05-02T03:25:52.313Z",
+    "kind": "dialogue",
+    "summary": "Response generated for recovery",
+    "userId": "recovery",
+    "modelType": "stub",
+    "messagePreview": "Проверь устойчивость compute core после недавних ошибок и собери отчет самообучения.",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692352354",
+    "createdAt": "2026-05-02T03:25:52.354Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352356",
+    "createdAt": "2026-05-02T03:25:52.356Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 0 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352374",
+    "createdAt": "2026-05-02T03:25:52.374Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692352382",
+    "createdAt": "2026-05-02T03:25:52.382Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353252",
+    "createdAt": "2026-05-02T03:25:53.252Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353266",
+    "createdAt": "2026-05-02T03:25:53.266Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353277",
+    "createdAt": "2026-05-02T03:25:53.277Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353288",
+    "createdAt": "2026-05-02T03:25:53.288Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353298",
+    "createdAt": "2026-05-02T03:25:53.298Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353309",
+    "createdAt": "2026-05-02T03:25:53.309Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353317",
+    "createdAt": "2026-05-02T03:25:53.317Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353325",
+    "createdAt": "2026-05-02T03:25:53.325Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353333",
+    "createdAt": "2026-05-02T03:25:53.333Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353342",
+    "createdAt": "2026-05-02T03:25:53.342Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 5 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353352",
+    "createdAt": "2026-05-02T03:25:53.352Z",
+    "kind": "gradient-apply",
+    "summary": "Applied 4 gradient decisions to Atman style.",
+    "source": "feedback-loop"
+  },
+  {
+    "id": "atman-log-1777692353361",
+    "createdAt": "2026-05-02T03:25:53.361Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692353362",
+    "createdAt": "2026-05-02T03:25:53.362Z",
+    "kind": "dialogue",
+    "summary": "Response generated for repair",
+    "userId": "repair",
+    "modelType": "stub",
+    "messagePreview": "После rollback исправь деградацию trace sentinel.",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692353366",
+    "createdAt": "2026-05-02T03:25:53.366Z",
+    "kind": "dialogue",
+    "summary": "Response generated for analysis",
+    "userId": "analysis",
+    "modelType": "stub",
+    "messagePreview": "Как проверить корректность самообучения после серии ошибок?",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Я помню 1 последних ",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692355348",
+    "createdAt": "2026-05-02T03:25:55.348Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-user",
+    "userId": "smoke-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи кратко, кто ты и что ты помнишь.",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692355350",
+    "createdAt": "2026-05-02T03:25:55.350Z",
+    "kind": "dialogue",
+    "summary": "Streaming response generated for smoke-stream-user",
+    "userId": "smoke-stream-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, скажи кто ты.",
+    "responsePreview": "Привет. Я Атман, диалоговое ядро Пантеона. Давай спокойно разберем, что тебе нужно.",
+    "source": "stub-stream"
+  },
+  {
+    "id": "atman-log-1777692355352",
+    "createdAt": "2026-05-02T03:25:55.352Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for manual-train-endpoint",
+    "source": "manual-train-endpoint",
+    "messagePreview": "Что такое яблоко?",
+    "responsePreview": "Яблоко это фрукт. Оно может быть красным, жёлтым или зелёным."
+  },
+  {
+    "id": "atman-log-1777692355354",
+    "createdAt": "2026-05-02T03:25:55.354Z",
+    "kind": "seed",
+    "summary": "Knowledge profile child-3 seeded in merge mode."
+  },
+  {
+    "id": "atman-log-1777692368336",
+    "createdAt": "2026-05-02T03:26:08.336Z",
+    "kind": "dialogue",
+    "summary": "Response generated for smoke-bridge-user",
+    "userId": "smoke-bridge-user",
+    "modelType": "stub",
+    "messagePreview": "Привет, я твой папа. Ты меня понимаешь?",
+    "responsePreview": "Я понял. Значит ты мой папа. Мне важно это знать и запомнить.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777692369386",
+    "createdAt": "2026-05-02T03:26:09.386Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into tide-dreamer.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777695538280",
+    "createdAt": "2026-05-02T04:18:58.280Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-4",
+    "userId": "beta-load-4",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=0 slot=4: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695538293",
+    "createdAt": "2026-05-02T04:18:58.293Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-3",
+    "userId": "beta-load-3",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=1 slot=3: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777695538302",
+    "createdAt": "2026-05-02T04:18:58.302Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-2",
+    "userId": "beta-load-2",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=2 slot=2: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777708364362",
+    "createdAt": "2026-05-02T07:52:44.362Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-3",
+    "userId": "beta-load-3",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=1 slot=3: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777708364369",
+    "createdAt": "2026-05-02T07:52:44.369Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-load-2",
+    "userId": "beta-load-2",
+    "modelType": "stub",
+    "messagePreview": "Бета-нагрузка round=2 slot=2: расскажи кратко, что тебе сейчас интересно.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  }
+]

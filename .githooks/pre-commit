@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+set -eu
+
+echo "[pre-commit] format check"
+npm run format:check
+
+echo "[pre-commit] typecheck"
+npm run typecheck
+
+echo "[pre-commit] build"
+npm run build

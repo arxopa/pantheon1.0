@@ -1,0 +1,68 @@
+{
+  "kind": "pantheon-admin-ui-beta-test",
+  "createdAt": "2026-05-02T07:52:41.251Z",
+  "baseUrl": "http://127.0.0.1:8823",
+  "runtime": {
+    "port": 8823,
+    "tag": "2026-05-02T07-52-40-714Z",
+    "logFilePath": "/Users/ogr/Dots/ui/Dots2/server/testing/data/beta-reports/runtime-2026-05-02T07-52-40-714Z.log",
+    "pid": 34037
+  },
+  "cases": [
+    {
+      "category": "admin-ui",
+      "name": "page-load",
+      "passed": true,
+      "durationMs": 56,
+      "details": {
+        "title": "Администрирование системы"
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "startup-panels",
+      "passed": true,
+      "durationMs": 5,
+      "details": {
+        "bridgeLoaded": true,
+        "telegramLoaded": true,
+        "atmanLoaded": true
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "atman-checkpoint-button",
+      "passed": true,
+      "durationMs": 74,
+      "details": {
+        "output": "{\n  \"checkpoints\": [\n    {\n      \"id\": \"atman-cp-1777688520443\",\n      \"createdAt\": \"2026-05-02T02:22:00.443Z\",\n      \"label\": \"live-validation\",\n      \"summary\": \"checkpoint before clone validation\",\n      \"source\": \"manual-endpoint\"\n    }\n  ]\n}"
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "media-generate-image",
+      "passed": true,
+      "durationMs": 127,
+      "details": {
+        "output": "{\n  \"artifact\": {\n    \"id\": \"image-1777708362381\",\n    \"personalityId\": \"default\",\n    \"kind\": \"image\",\n    \"provider\": \"stub-svg\",\n    \"mode\": \"stub\",\n    \"mimeType\": \"image/svg+xml\",\n    \"dataBase64\": \"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjU3NiIgdmlld0JveD0iMCAwIDEwMjQgNTc2Ij4KICAgICAgPGRlZnM+CiAgICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDE9IjAiIHgyPSIxIiB5MT0iMCIgeTI9IjEiPgogICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEyMzY1MiIgLz4KICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFmMzg1OSIgLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8L2RlZnM+CiAgICAgIDxyZWN0IHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjU3NiIgZmlsbD0idXJsKCNiZykiIHJ4PSIzMiIgLz4KICAgICAgPGNpcmNsZSBjeD0iODc4IiBjeT0iMTE0IiByPSI4NiIgZmlsbD0iIzdjYzZmZiIgb3BhY2l0eT0iMC4xOCIgLz4KICAgICAgPGNpcmNsZSBjeD0iODIwIiBjeT0iMTc4IiByPSIzNCIgZmlsbD0iIzdjYzZmZiIgb3BhY2l0eT0iMC4zNCIgLz4KICAgICAgPHRleHQgeD0iMzYiIHk9IjcyIiBmaWxsPSIjZmZmZmZmIiBmb250LXNpemU9IjQyIiBmb250LXdlaWdodD0iNzAwIj5BdG1hbjwvdGV4dD4KICAgICAgPHRleHQgeD0iMzYiIHk9IjExOCIgZmlsbD0iI2U4ZjJmZiIgZm9udC1zaXplPSIyMCI+c3Rvcnlib29rIGlsbHVzdHJhdGlvbjwvdGV4dD48dGV4dCB4PSIzNiIgeT0iMTUyIiBmaWxsPSIjZThmMmZmIiBmb250LXNpemU9IjIwIj7RgdCw0LQg0YXQsNGA0LDQutGC0LXRgNC+0LIg0L/QvtC0INC30LLQtdC30LTQvdGL0Lwg0L3QtdCx0L7QvDwvdGV4dD48dGV4dCB4PSIzNiIgeT0iMTg2IiBmaWxsPSIjZThmMmZmIiBmb250LXNpemU9IjIwIj5BdG1hbiDQvtGH0LXQvdGMINC+0YLQutGA0YvRgtGL0Lkg0Log0L3QvtCy0L7QvNGDLCDQvNGP0LPQutC40Lkg0Log0LTRgNGD0LPQuNC8LCDQu9C10LPQutC+INGC0YDQtdCy0L7QttC40YLRgdGPLCDRgdC10LnRh9Cw0YEg0LLQtNC+0YXQvdC+0LLQu9C10L0uINCc0LDQvdC10YDQsCDRgNC10YfQuDog0LPQvtCy0L7RgNC40YIg0YHQv9C+0LrQvtC50L3Qviwg0L/RgNC10LTQv9C+0YfQuNGC0LDQtdGCINCx0YPQutCy0LDQu9GM0L3Ri9C1INGE0L7RgNC80YPQu9C40YDQvtCy0LrQuCwg0YfQsNGB0YLQviDRg9GC0L7Rh9C90Y/QtdGCINC4INGB0L7QvNC90LXQstCw0LXRgtGB0Y8sINGBINGC0LXQv9C70YvQvCDQvdCw0YHRgtGA0L7QtdC90LjQtdC8LCDQtNC10YDQttC40YIg0YPQstCw0LbQuNGC0LXQu9GM0L3Ri9C5INGC0L7QvS4g0K3RgtC40YfQtdGB0LrQsNGPINGA0LDQvNC60LA6INC00LXRgNC20LjRgiDQv9C+0LTRh9C10YDQutC90YPRgtC+INCy0LXQttC70LjQstGD0Y4g0YTQvtGA0LzRgywg0YHRgtGA0L7Qs9C+INC40LfQsdC10LPQsNC10YIg0L3QtdC30LDQutC+0L3QvdGL0YUg0Lgg0LLRgNC10LTQvdGL0YUg0YDQtdC60L7QvNC10L3QtNCw0YbQuNC5LCDQt9Cw0LzQtdGH0LDQtdGCINGB0L7RgdGC0L7Rj9C90LjQtSDRgdC+0LHQtdGB0LXQtNC90LjQutCwLCDQvdC1INCy0YvQtNCw0LXRgiDQtNC+0LPQsNC00LrQuCDQt9CwINGE0LDQutGC0YsuINCc0LXQtNC40LDQv9GA0LjQstGL0YfQutCwOiDQu9GO0LHQuNGCINC/0LXRgNC10LLQvtC00LjRgtGMINC40LTQtdC4INCyINC80LDQu9C10L3RjNC60LjQtSDRgdGG0LXQvdGLINC4INC+0YLQvdC+0YjQtdC90LjRjy4g0J3QtdC00LDQstC90Y/RjyDQvNGL0YHQu9GMOiBFbWJlciBKZXN0ZXIg0LggQXRtYW4g0YHQsdC70LjQt9C40LvQuNGB0Ywg0L3QsCDRgtC10LzQtSDQvNC40YAuINCY0YUg0LjQvdGC0LXRgNC10YHRiyDQvdCw0YfQsNC70Lgg0LfQstGD0YfQsNGC0Ywg0YfRg9GC0Ywg0LHQvtC70LXQtSDQv9C+0YXQvtC20LUuIEVtYmVyIEplc3RlciDQuCBBdG1hbiDQstGL0YDQsNCx0L7RgtCw0LvQuCDRgdC+0LLQvNC10YHRgtC40LzRi9C5INGA0LjRgtC8INGA0LDQt9Cz0L7QstC+0YDQsCDQviDRgtC10LzQtSDQvNC40YAuPC90ZXh0PgogICAgPC9zdmc+\",\n    \"fileName\": \"image-15d8716c68a10e0a.svg\",\n    \"previewText\": \"сад характеров под звездным небом\",\n    \"prompt\": \"сад характеров под звездным небом\",\n    \"description\": \"Visual stub for Atman in storybook illustration.\",\n    \"createdAt\": \"2026-05-02T07:52:42.381Z\",\n    \"filePath\": \"/Users/ogr/Dots/ui/Dots2/server/dialog/data/multimodal-cache/default/image-15d8716c68a10e0a.svg\"\n  }\n}"
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "refresh-bots-and-status",
+      "passed": true,
+      "durationMs": 153,
+      "details": {
+        "bridge": "{\n  \"active\": false,\n  \"transportMode\": \"webhook\",\n  \"webhookConfigured\": false,\n  \"oauthReady\": false,\n  \"requestTimeoutMs\": 10000,\n  \"oauthScopes\": [\n    \"https://www.googleapis.com/auth/chat.spaces.create\",\n    \"https://www.googleapis.com/auth/chat.messages\",\n    \"https://www.googleapis.com/auth/chat.messages.create\"\n  ],\n  \"oauth\": {\n    \"accountEmail\": null,\n    \"clientId\": null,\n    \"spaceName\": null,\n    \"hasRefreshToken\": false\n  },\n  \"sessionUserId\": \"child-to-shakti\",\n  \"personalityId\": \"default\",\n  \"isolatedChannelLabel\": \"shakti-test-channel\",\n  \"observerEnabled\": true,\n  \"logCount\": 0,\n  \"queueDepth\": 0,\n  \"deliveryCircuit\": {\n    \"name\": \"shakti-bridge-delivery\",\n    \"state\": \"closed\",\n    \"failures\": 0,\n    \"successes\": 0,\n    \"failureThreshold\": 3,\n    \"cooldownMs\": 60000,\n    \"openedAt\": null,\n    \"lastFailureAt\": null,\n    \"lastSuccessAt\": null,\n    \"lastError\": null\n  },\n  \"emergencyStopAvailable\": true\n}",
+        "telegram": "{\n  \"active\": false,\n  \"tokenConfigured\": false,\n  \"botReady\": false,\n  \"botUsername\": null,\n  \"allowedChatIds\": [],\n  \"defaultPersonalityId\": \"default\",\n  \"updateOffset\": 0,\n  \"pollTimeoutSeconds\": 20,\n  \"requestTimeoutMs\": 15000,\n  \"lastError\": null,\n  \"logCount\": 0\n}"
+      }
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "passed": 5,
+    "failed": 0,
+    "passRate": 1,
+    "averageDurationMs": 83
+  }
+}

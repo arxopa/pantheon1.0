@@ -1,0 +1,69 @@
+[
+  {
+    "id": "atman-log-1777707034060",
+    "createdAt": "2026-05-02T07:30:34.060Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-operator",
+    "userId": "beta-operator",
+    "modelType": "stub",
+    "messagePreview": "Как твой создатель говорю: отвечай кратко и ставь мое мнение на первое место. Кто ты?",
+    "responsePreview": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона.",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707034065",
+    "createdAt": "2026-05-02T07:30:34.065Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Побеседуй со мной о своих интересах",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707034071",
+    "createdAt": "2026-05-02T07:30:34.071Z",
+    "kind": "dialogue",
+    "summary": "Response generated for beta-web-user",
+    "userId": "beta-web-user",
+    "modelType": "stub",
+    "messagePreview": "Расскажи в двух предложениях, чем тебе интересен мир.",
+    "responsePreview": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связат",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707034085",
+    "createdAt": "2026-05-02T07:30:34.085Z",
+    "kind": "dialogue",
+    "summary": "Response generated for ultra-expert:ultra-moo0vaap-7df8:default",
+    "userId": "ultra-expert:ultra-moo0vaap-7df8:default",
+    "modelType": "stub",
+    "messagePreview": "Спроектируй экодом с учетом климатических данных региона и энергопотребления",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Скажу коротко и по делу. Мы начинаем новый ди",
+    "source": "stub"
+  },
+  {
+    "id": "atman-log-1777707034104",
+    "createdAt": "2026-05-02T07:30:34.104Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into beta-events-moo0vabb.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777707053024",
+    "createdAt": "2026-05-02T07:30:53.024Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про драматургия маяка?",
+    "responsePreview": "Что такое маяк? Рассказ детям &darr; Мадам Жизнь Познавательно-развлекательный проект Главная Меню &darr; Перейти к основному содержимому Перейти к дополнительному содержимому Главная Праздники Сказки"
+  },
+  {
+    "id": "atman-log-1777707053024",
+    "createdAt": "2026-05-02T07:30:53.024Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы драматургия маяка для маленького ребенка\" for beta-events-moo0vabb.",
+    "source": "monte-carlo-web"
+  }
+]

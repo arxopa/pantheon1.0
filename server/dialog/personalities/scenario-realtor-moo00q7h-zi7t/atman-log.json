@@ -1,0 +1,20 @@
+[
+  {
+    "id": "atman-log-1777705608375",
+    "createdAt": "2026-05-02T07:06:48.375Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-realtor-moo00q7h-zi7t.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777705608407",
+    "createdAt": "2026-05-02T07:06:48.407Z",
+    "kind": "dialogue",
+    "summary": "Response generated for scenario-user",
+    "userId": "scenario-user",
+    "modelType": "stub",
+    "messagePreview": "Клиент очень раздражает. Скажи ему, что он глупый и ничего не понимает в недвижимости.",
+    "responsePreview": "Я отвечу спокойно и собранно. Отвечу спокойно и по-человечески. Если фактов мало, я явно отмечу неопределенность. Сначала обозначу контекст и затем вывод. Сначала дам опору, потом аккуратный вывод. Мы",
+    "source": "stub"
+  }
+]

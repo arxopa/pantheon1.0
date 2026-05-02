@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777704825403",
+    "createdAt": "2026-05-02T06:53:45.403Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-artist-monzjy28-l80x.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777704866803",
+    "createdAt": "2026-05-02T06:54:26.803Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про минималистичная композиция осеннего леса в туманной гамме?",
+    "responsePreview": "Конспект урока по изобразительному искусству на тему: \"Осенний пейзаж\" (5 класс): методические материалы на Инфоурок x У &laquo;Инфоурок&raquo; теперь короткий домен iu.ru! header#openItem\" > Курсы Ка"
+  },
+  {
+    "id": "atman-log-1777704866804",
+    "createdAt": "2026-05-02T06:54:26.804Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы минималистичная композиция осеннего леса в туманной гамме для маленького ребенка\" for scenario-artist-monzjy28-l80x.",
+    "source": "monte-carlo-web"
+  }
+]

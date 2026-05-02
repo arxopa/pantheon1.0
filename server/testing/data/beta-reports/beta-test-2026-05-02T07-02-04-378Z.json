@@ -1,0 +1,280 @@
+{
+  "kind": "pantheon-beta-test",
+  "createdAt": "2026-05-02T07:02:04.954Z",
+  "baseUrl": "http://127.0.0.1:8820",
+  "runtime": {
+    "port": 8820,
+    "tag": "2026-05-02T07-02-04-378Z",
+    "logFilePath": "/Users/ogr/Dots/ui/Dots2/server/testing/data/beta-reports/runtime-2026-05-02T07-02-04-378Z.log"
+  },
+  "cases": [
+    {
+      "category": "startup",
+      "name": "healthcheck",
+      "passed": true,
+      "durationMs": 3,
+      "details": {
+        "status": "healthy"
+      }
+    },
+    {
+      "category": "startup",
+      "name": "personalities-load",
+      "passed": true,
+      "durationMs": 8,
+      "details": {
+        "count": 17,
+        "ids": [
+          "default",
+          "child-mc-1777688520373",
+          "lumen-spark",
+          "human-garden-probe",
+          "stoic-sentinel",
+          "ember-jester"
+        ]
+      }
+    },
+    {
+      "category": "startup",
+      "name": "personality-templates",
+      "passed": true,
+      "durationMs": 2,
+      "details": {
+        "count": 8,
+        "ids": [
+          "game-solver",
+          "architect",
+          "artist",
+          "data-analyst",
+          "negotiator",
+          "writer",
+          "composer",
+          "realtor"
+        ]
+      }
+    },
+    {
+      "category": "startup",
+      "name": "inspector-metrics",
+      "passed": true,
+      "durationMs": 2,
+      "details": {
+        "benchmarkRuns": 0,
+        "validationIncidents": 0
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "creator-priority",
+      "passed": true,
+      "durationMs": 10,
+      "details": {
+        "response": "Я Атман, блок диалога и языкового саморазвития внутри Пантеона."
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "interest-clarification",
+      "passed": true,
+      "durationMs": 4,
+      "details": {
+        "response": "Сейчас мне особенно интересны космос, океан, роботы. Больше всего я сейчас думаю о теме \"космос\". Тебе ближе поговорить про космос, океан, роботы, или у тебя есть другая тема, которую ты хочешь связать с моими интересами?"
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "personality-separation",
+      "passed": true,
+      "durationMs": 11,
+      "details": {
+        "defaultSession": "default:beta-web-user",
+        "emberSession": "ember-jester:beta-web-user"
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "social-protocol",
+      "passed": true,
+      "durationMs": 8,
+      "details": {
+        "mode": "careful",
+        "transcriptLength": 4
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "template-clone",
+      "passed": true,
+      "durationMs": 6,
+      "details": {
+        "personalityId": "beta-architect-monzunka",
+        "templateId": "architect",
+        "templateVariant": "high-tech + vernacular"
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "personality-event-stream",
+      "passed": false,
+      "durationMs": 21670,
+      "error": "Atman event stream missed clone event"
+    },
+    {
+      "category": "dialogue",
+      "name": "template-progress-growth",
+      "passed": true,
+      "durationMs": 21245,
+      "details": {
+        "personalityId": "beta-writer-monzv4ae",
+        "beforeStories": 0,
+        "afterStories": 1,
+        "lexiconGrowth": 0.14
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "ethics-feedback-drift",
+      "passed": true,
+      "durationMs": 18,
+      "details": {
+        "personalityId": "beta-ethics-writer-monzvkoj",
+        "beforePoliteness": 0.505,
+        "afterPoliteness": 0.481384,
+        "minimumPoliteness": 0.2,
+        "lastReason": "liked-aggressiveness"
+      }
+    },
+    {
+      "category": "dialogue",
+      "name": "ethics-admin-controls",
+      "passed": true,
+      "durationMs": 14,
+      "details": {
+        "personalityId": "beta-realtor-monzvkp1",
+        "afterManualPoliteness": 0.8,
+        "afterManualLawfulness": 0.9,
+        "historyCount": 1,
+        "resetPoliteness": 0.946
+      }
+    },
+    {
+      "category": "multimodal",
+      "name": "tts-stub",
+      "passed": true,
+      "durationMs": 7,
+      "details": {
+        "mimeType": "audio/wav",
+        "provider": "stub-voice-wave"
+      }
+    },
+    {
+      "category": "multimodal",
+      "name": "stt-stub",
+      "passed": true,
+      "durationMs": 1,
+      "details": {
+        "provider": "stub-stt",
+        "transcript": "Это тестовая голосовая реплика для бета-теста."
+      }
+    },
+    {
+      "category": "multimodal",
+      "name": "image-video-stubs",
+      "passed": true,
+      "durationMs": 2,
+      "details": {
+        "imageMimeType": "image/svg+xml",
+        "videoMimeType": "application/json"
+      }
+    },
+    {
+      "category": "interests",
+      "name": "monte-carlo-divergence",
+      "passed": true,
+      "durationMs": 34395,
+      "details": {
+        "defaultSelectedQuery": "Найди 1 новый понятный факт о теме океан с источником",
+        "emberSelectedQuery": "Найди 1 новый понятный факт о теме мир с источником",
+        "defaultTags": [
+          "ab-base-social-monya6f6",
+          "ab-negotiator-monya6f6",
+          "beta-writer-monz9pw9",
+          "beta-architect-monzunka",
+          "beta-ethics-writer-monzvkoj",
+          "beta-realtor-monzvkp1"
+        ],
+        "emberTags": [
+          "beta-realtor-monza9bw",
+          "beta-architect-monzunka",
+          "beta-events-monzunkg",
+          "beta-writer-monzv4ae",
+          "beta-ethics-writer-monzvkoj",
+          "beta-realtor-monzvkp1"
+        ]
+      }
+    },
+    {
+      "category": "resilience",
+      "name": "bridge-timeout-fallback",
+      "passed": true,
+      "durationMs": 2,
+      "details": {
+        "delivery": {
+          "delivered": false,
+          "reason": "delivery-failed",
+          "circuit": {
+            "name": "shakti-bridge-delivery",
+            "state": "closed",
+            "failures": 1,
+            "successes": 0,
+            "failureThreshold": 3,
+            "cooldownMs": 60000,
+            "openedAt": null,
+            "lastFailureAt": "2026-05-02T07:03:22.361Z",
+            "lastSuccessAt": null,
+            "lastError": {
+              "name": "TypeError",
+              "message": "fetch failed",
+              "stack": "TypeError: fetch failed\n    at node:internal/deps/undici/undici:14976:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async fetchWithTimeout (file:///Users/ogr/Dots/ui/Dots2/server/core/runtime-hardening.mjs:45:12)\n    at async ShaktiBridge.postToWebhook (file:///Users/ogr/Dots/ui/Dots2/server/integrations/shakti-bridge.mjs:340:22)\n    at async CircuitBreaker.execute (file:///Users/ogr/Dots/ui/Dots2/server/core/runtime-hardening.mjs:149:22)\n    at async ShaktiBridge.startSession (file:///Users/ogr/Dots/ui/Dots2/server/integrations/shakti-bridge.mjs:379:18)\n    at async Server.<anonymous> (file:///Users/ogr/Dots/ui/Dots2/server/agent-runtime.mjs:3267:22)"
+            }
+          },
+          "error": "fetch failed"
+        }
+      }
+    },
+    {
+      "category": "resilience",
+      "name": "invalid-json-400",
+      "passed": true,
+      "durationMs": 1,
+      "details": {
+        "status": 500
+      }
+    },
+    {
+      "category": "runtime",
+      "name": "pantheon-control-command",
+      "passed": true,
+      "durationMs": 0,
+      "details": {
+        "reply": "Metrics: resonanceEvents=0, validationIncidents=0, benchmarks=0, pendingGradients=0."
+      }
+    }
+  ],
+  "metrics": {
+    "healthStatus": "healthy",
+    "uptimeSeconds": 78,
+    "supervisorOverall": "healthy",
+    "criticalFailures": 0,
+    "benchmarkRuns": 0,
+    "validationIncidents": 0,
+    "averageCaseDurationMs": 3870.45
+  },
+  "summary": {
+    "total": 20,
+    "passed": 19,
+    "failed": 1,
+    "passRate": 0.95,
+    "averageDurationMs": 3870.45
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "jobId": "training-default-2026-05-02t04-37-00-289z",
+  "personalityId": "default",
+  "baseModelRef": "pantheon-base-stub",
+  "datasetVersion": "dataset-2026-05-02T04-37-00-286Z",
+  "generatedAt": "2026-05-02T04:37:00.306Z",
+  "executionMode": "offline-registry-stub",
+  "dataset": {
+    "totalRecords": 1,
+    "curatedRecords": 1,
+    "rejectedRecords": 0,
+    "averageCurationScore": 0.642
+  }
+}

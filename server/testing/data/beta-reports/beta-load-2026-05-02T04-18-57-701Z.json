@@ -1,0 +1,135 @@
+{
+  "kind": "pantheon-beta-load-test",
+  "createdAt": "2026-05-02T04:18:58.306Z",
+  "baseUrl": "http://127.0.0.1:8821",
+  "summary": {
+    "concurrency": 5,
+    "rounds": 3,
+    "totalRequests": 15,
+    "averageDurationMs": 14.47,
+    "maxDurationMs": 28,
+    "overFiveSeconds": 0
+  },
+  "results": [
+    {
+      "round": 0,
+      "slot": 0,
+      "personalityId": "default",
+      "durationMs": 21,
+      "sessionKey": "default:beta-load-0",
+      "responseLength": 221
+    },
+    {
+      "round": 0,
+      "slot": 1,
+      "personalityId": "ember-jester",
+      "durationMs": 26,
+      "sessionKey": "ember-jester:beta-load-1",
+      "responseLength": 221
+    },
+    {
+      "round": 0,
+      "slot": 2,
+      "personalityId": "lumen-spark",
+      "durationMs": 27,
+      "sessionKey": "lumen-spark:beta-load-2",
+      "responseLength": 221
+    },
+    {
+      "round": 0,
+      "slot": 3,
+      "personalityId": "stoic-sentinel",
+      "durationMs": 28,
+      "sessionKey": "stoic-sentinel:beta-load-3",
+      "responseLength": 221
+    },
+    {
+      "round": 0,
+      "slot": 4,
+      "personalityId": "tide-dreamer",
+      "durationMs": 27,
+      "sessionKey": "tide-dreamer:beta-load-4",
+      "responseLength": 221
+    },
+    {
+      "round": 1,
+      "slot": 0,
+      "personalityId": "ember-jester",
+      "durationMs": 13,
+      "sessionKey": "ember-jester:beta-load-0",
+      "responseLength": 221
+    },
+    {
+      "round": 1,
+      "slot": 1,
+      "personalityId": "lumen-spark",
+      "durationMs": 12,
+      "sessionKey": "lumen-spark:beta-load-1",
+      "responseLength": 221
+    },
+    {
+      "round": 1,
+      "slot": 2,
+      "personalityId": "stoic-sentinel",
+      "durationMs": 12,
+      "sessionKey": "stoic-sentinel:beta-load-2",
+      "responseLength": 221
+    },
+    {
+      "round": 1,
+      "slot": 3,
+      "personalityId": "tide-dreamer",
+      "durationMs": 8,
+      "sessionKey": "tide-dreamer:beta-load-3",
+      "responseLength": 221
+    },
+    {
+      "round": 1,
+      "slot": 4,
+      "personalityId": "default",
+      "durationMs": 9,
+      "sessionKey": "default:beta-load-4",
+      "responseLength": 221
+    },
+    {
+      "round": 2,
+      "slot": 0,
+      "personalityId": "lumen-spark",
+      "durationMs": 8,
+      "sessionKey": "lumen-spark:beta-load-0",
+      "responseLength": 221
+    },
+    {
+      "round": 2,
+      "slot": 1,
+      "personalityId": "stoic-sentinel",
+      "durationMs": 6,
+      "sessionKey": "stoic-sentinel:beta-load-1",
+      "responseLength": 221
+    },
+    {
+      "round": 2,
+      "slot": 2,
+      "personalityId": "tide-dreamer",
+      "durationMs": 7,
+      "sessionKey": "tide-dreamer:beta-load-2",
+      "responseLength": 221
+    },
+    {
+      "round": 2,
+      "slot": 3,
+      "personalityId": "default",
+      "durationMs": 6,
+      "sessionKey": "default:beta-load-3",
+      "responseLength": 221
+    },
+    {
+      "round": 2,
+      "slot": 4,
+      "personalityId": "ember-jester",
+      "durationMs": 7,
+      "sessionKey": "ember-jester:beta-load-4",
+      "responseLength": 221
+    }
+  ]
+}

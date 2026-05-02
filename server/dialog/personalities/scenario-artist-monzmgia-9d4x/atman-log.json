@@ -1,0 +1,25 @@
+[
+  {
+    "id": "atman-log-1777704942618",
+    "createdAt": "2026-05-02T06:55:42.618Z",
+    "kind": "clone",
+    "summary": "Personality cloned from default into scenario-artist-monzmgia-9d4x.",
+    "source": "atman-personality-manager"
+  },
+  {
+    "id": "atman-log-1777704957443",
+    "createdAt": "2026-05-02T06:55:57.443Z",
+    "kind": "training",
+    "summary": "Dialogue example learned for monte-carlo-web-self-learning",
+    "source": "monte-carlo-web-self-learning",
+    "messagePreview": "Что нового ты узнал про яркий осенний лес в экспрессивной палитре?",
+    "responsePreview": "Сочинение на тему: Осенний лес (3 варианта) Меню Краткие содержания Характеристики персонажей Сочинения по произведениям Сочинения по темам Сочинения по картинам Биографии писателей Биографии художник"
+  },
+  {
+    "id": "atman-log-1777704957444",
+    "createdAt": "2026-05-02T06:55:57.444Z",
+    "kind": "monte-carlo-self-learn",
+    "summary": "Monte Carlo self-learning selected query \"Найди в интернете простое объяснение темы яркий осенний лес в экспрессивной палитре для маленького ребенка\" for scenario-artist-monzmgia-9d4x.",
+    "source": "monte-carlo-web"
+  }
+]

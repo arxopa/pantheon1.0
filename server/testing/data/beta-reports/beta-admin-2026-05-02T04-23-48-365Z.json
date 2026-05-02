@@ -1,0 +1,64 @@
+{
+  "kind": "pantheon-admin-ui-beta-test",
+  "createdAt": "2026-05-02T04:23:48.910Z",
+  "baseUrl": "http://127.0.0.1:8823",
+  "runtime": {
+    "port": 8823,
+    "tag": "2026-05-02T04-23-48-365Z",
+    "logFilePath": "/Users/ogr/Dots/ui/Dots2/server/testing/data/beta-reports/runtime-2026-05-02T04-23-48-365Z.log",
+    "pid": null
+  },
+  "cases": [
+    {
+      "category": "admin-ui",
+      "name": "page-load",
+      "passed": true,
+      "durationMs": 65,
+      "details": {
+        "title": "Администрирование системы"
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "startup-panels",
+      "passed": true,
+      "durationMs": 6,
+      "details": {
+        "bridgeLoaded": true,
+        "telegramLoaded": true,
+        "atmanLoaded": true
+      }
+    },
+    {
+      "category": "admin-ui",
+      "name": "atman-self-learn-button",
+      "passed": false,
+      "durationMs": 30121,
+      "error": "page.waitForFunction: Timeout 30000ms exceeded."
+    },
+    {
+      "category": "admin-ui",
+      "name": "media-generate-image",
+      "passed": false,
+      "durationMs": 57,
+      "error": "Image preview did not become visible"
+    },
+    {
+      "category": "admin-ui",
+      "name": "refresh-bots-and-status",
+      "passed": true,
+      "durationMs": 138,
+      "details": {
+        "bridge": "{\n  \"active\": false,\n  \"transportMode\": \"webhook\",\n  \"webhookConfigured\": false,\n  \"oauthReady\": false,\n  \"requestTimeoutMs\": 10000,\n  \"oauthScopes\": [\n    \"https://www.googleapis.com/auth/chat.spaces.create\",\n    \"https://www.googleapis.com/auth/chat.messages\",\n    \"https://www.googleapis.com/auth/chat.messages.create\"\n  ],\n  \"oauth\": {\n    \"accountEmail\": null,\n    \"clientId\": null,\n    \"spaceName\": null,\n    \"hasRefreshToken\": false\n  },\n  \"sessionUserId\": \"child-to-shakti\",\n  \"personalityId\": \"default\",\n  \"isolatedChannelLabel\": \"shakti-test-channel\",\n  \"observerEnabled\": true,\n  \"logCount\": 0,\n  \"queueDepth\": 0,\n  \"deliveryCircuit\": {\n    \"name\": \"shakti-bridge-delivery\",\n    \"state\": \"closed\",\n    \"failures\": 0,\n    \"successes\": 0,\n    \"failureThreshold\": 3,\n    \"cooldownMs\": 60000,\n    \"openedAt\": null,\n    \"lastFailureAt\": null,\n    \"lastSuccessAt\": null,\n    \"lastError\": null\n  },\n  \"emergencyStopAvailable\": true\n}",
+        "telegram": "{\n  \"active\": false,\n  \"tokenConfigured\": false,\n  \"botReady\": false,\n  \"botUsername\": null,\n  \"allowedChatIds\": [],\n  \"defaultPersonalityId\": \"default\",\n  \"updateOffset\": 0,\n  \"pollTimeoutSeconds\": 20,\n  \"requestTimeoutMs\": 15000,\n  \"lastError\": null,\n  \"logCount\": 0\n}"
+      }
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "passed": 3,
+    "failed": 2,
+    "passRate": 0.6,
+    "averageDurationMs": 6077.4
+  }
+}
